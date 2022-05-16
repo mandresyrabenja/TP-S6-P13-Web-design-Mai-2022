@@ -8,9 +8,9 @@
                 <div class="panel panel-default">
                     <div class="panel-heading">
                         <h2>
-                            <?php echo e($post->title); ?> <small>by <?php echo e($post->user->name); ?></small>
+                            <?php echo e($post->title); ?> <small>par <?php echo e($post->user->name); ?></small>
 
-                            <a href="<?php echo e(url('admin/posts')); ?>" class="btn btn-default pull-right">Go Back</a>
+                            <a href="<?php echo e(url('admin/posts')); ?>" class="btn btn-default pull-right">Retour</a>
                         </h2>
                     </div>
 

@@ -41,7 +41,7 @@ class CategoryController extends Controller
         $this->validate($request, ['name' => 'required']);
 
         Category::create(['name' => $request->name]);
-        flash()->overlay('Category created successfully');
+        flash()->overlay('Categorie crée avec succès');
 
         return redirect('/admin/categories');
     }
@@ -69,7 +69,7 @@ class CategoryController extends Controller
         $this->validate($request, ['name' => 'required']);
 
         $category->update($request->all());
-        flash()->overlay('Category updated successfully');
+        flash()->overlay('Categorie mis à jour avec succès');
 
         return redirect('/admin/categories');
     }
@@ -83,7 +83,7 @@ class CategoryController extends Controller
     public function destroy(Category $category)
     {
         $category->delete();
-        flash()->overlay('Category deleted successfully');
+        flash()->overlay('Categorie effacé avec succès');
 
         return redirect('/admin/categories');
     }

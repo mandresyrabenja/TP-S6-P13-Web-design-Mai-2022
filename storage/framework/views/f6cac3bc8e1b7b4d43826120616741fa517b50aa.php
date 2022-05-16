@@ -8,7 +8,7 @@
                 <div class="panel panel-default">
                     <div class="panel-heading">
                         <h2>
-                            Users
+                            Utilisateurs
                         </h2>
                     </div>
 
@@ -16,11 +16,11 @@
                         <table class="table">
                             <thead>
                                 <tr>
-                                    <th>Name</th>
+                                    <th>Nom</th>
                                     <th>Email</th>
                                     <th>Admin?</th>
-                                    <th>No of Posts</th>
-                                    <th>Action</th>
+                                    <th>Nombre des articles</th>
+                                    <th>Opération</th>
                                 </tr>
                             </thead>
                             <tbody>
@@ -28,15 +28,15 @@
                                     <tr>
                                         <td><?php echo e($user->name); ?></td>
                                         <td><?php echo e($user->email); ?></td>
-                                        <td><?php echo e(($user->is_admin)?'Yes':'No'); ?></td>
+                                        <td><?php echo e(($user->is_admin)?'Oui':'Non'); ?></td>
                                         <td><?php echo e($user->posts_count); ?></td>
                                         <td>
-                                            <a href="<?php echo e(url("/admin/users/{$user->id}")); ?>" data-method="DELETE" data-token="<?php echo e(csrf_token()); ?>" data-confirm="Are you sure?" class="btn btn-xs btn-danger">Delete</a>
+                                            <a href="<?php echo e(url("/admin/users/{$user->id}")); ?>" data-method="DELETE" data-token="<?php echo e(csrf_token()); ?>" data-confirm="Etes-vous sûr?" class="btn btn-xs btn-danger">Effacer</a>
                                         </td>
                                     </tr>
                                 <?php endforeach; $__env->popLoop(); $loop = $__env->getLastLoop(); if ($__empty_1): ?>
                                     <tr>
-                                        <td colspan="2">No user available.</td>
+                                        <td colspan="2">Aucun utilisateur</td>
                                     </tr>
                                 <?php endif; ?>
                             </tbody>

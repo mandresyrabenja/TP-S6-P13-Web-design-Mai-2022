@@ -29,13 +29,13 @@ class UserController extends Controller
     public function destroy(User $user)
     {
         if (auth()->user() == $user) {
-            flash()->overlay("You can't delete yourself.");
+            flash()->overlay("Vous ne pouvez pas effacé votre propre compte");
 
             return redirect('/admin/users');
         }
 
         $user->delete();
-        flash()->overlay('User deleted successfully.');
+        flash()->overlay('Utilisateur supprimé avec succès');
 
         return redirect('/admin/users');
     }

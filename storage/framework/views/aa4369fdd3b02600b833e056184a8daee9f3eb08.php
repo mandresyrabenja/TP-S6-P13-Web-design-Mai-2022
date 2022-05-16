@@ -1,5 +1,5 @@
 <div class="form-group<?php echo e($errors->has('name') ? ' has-error' : ''); ?>">
-    <?php echo Form::label('name', 'Name', ['class' => 'col-md-2 control-label']); ?>
+    <?php echo Form::label('name', 'Nom', ['class' => 'col-md-2 control-label']); ?>
 
 
     <div class="col-md-8">

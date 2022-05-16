@@ -8,9 +8,9 @@
                 <div class="panel panel-default">
                     <div class="panel-heading">
                         <h2>
-                            Comments
+                            Commentaire
 
-                            <a href="{{ url('admin/comments/create') }}" class="btn btn-default pull-right">Create New</a>
+                            <a href="{{ url('admin/comments/create') }}" class="btn btn-default pull-right">Créer</a>
                         </h2>
                     </div>
 
@@ -18,9 +18,9 @@
                         <table class="table">
                             <thead>
                                 <tr>
-                                    <th>Post</th>
-                                    <th>Comment</th>
-                                    <th>Action</th>
+                                    <th>Article</th>
+                                    <th>Commentaire</th>
+                                    <th>Opération</th>
                                 </tr>
                             </thead>
                             <tbody>
@@ -29,12 +29,12 @@
                                         <td>{{ $comment->post->title }}</td>
                                         <td>{{ $comment->body }}</td>
                                         <td>
-                                            <a href="{{ url("/admin/comments/{$comment->id}") }}" data-method="DELETE" data-token="{{ csrf_token() }}" data-confirm="Are you sure?" class="btn btn-xs btn-danger">Delete</a>
+                                            <a href="{{ url("/admin/comments/{$comment->id}") }}" data-method="DELETE" data-token="{{ csrf_token() }}" data-confirm="Etes-vous sûr?" class="btn btn-xs btn-danger">Effacer</a>
                                         </td>
                                     </tr>
                                 @empty
                                     <tr>
-                                        <td colspan="2">No comment available.</td>
+                                        <td colspan="2">Aucun commentaire</td>
                                     </tr>
                                 @endforelse
                             </tbody>

@@ -66,11 +66,16 @@ class Post extends Model
 
     public function getPublishedAttribute()
     {
-        return ($this->is_published) ? 'Yes' : 'No';
+        return ($this->is_published) ? 'Oui' : 'Non';
     }
 
     public function getEtagAttribute()
     {
         return hash('sha256', "product-{$this->id}-{$this->updated_at}");
+    }
+
+    public function getSlugAttribute(): string
+    {
+        return str_slug($this->title);
     }
 }

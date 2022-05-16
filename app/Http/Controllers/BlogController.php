@@ -22,7 +22,7 @@ class BlogController extends Controller
         return view('frontend.index', compact('posts'));
     }
 
-    public function post(Post $post)
+    public function post(Post $post, $slug = '')
     {
         $post = $post->load(['comments.user', 'tags', 'user', 'category']);
 

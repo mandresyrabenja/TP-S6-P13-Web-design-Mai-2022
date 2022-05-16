@@ -8,7 +8,7 @@
                 <div class="panel panel-default">
                     <div class="panel-heading">
                         <h2>
-                            Profile
+                            Profil
                         </h2>
                     </div>
 
@@ -16,13 +16,13 @@
                         <table class="table">
                             <thead>
                                 <tr>
-                                    <th>Attribute</th>
-                                    <th>Value</th>
+                                    <th>Attribut</th>
+                                    <th>Valeur</th>
                                 </tr>
                             </thead>
                             <tbody>
                                 <tr>
-                                    <td>Name</td>
+                                    <td>Nom</td>
                                     <td>{{ $user->name }}</td>
                                 </tr>
                                 <tr>
@@ -30,23 +30,19 @@
                                     <td>{{ $user->email }}</td>
                                 </tr>
                                 <tr>
-                                    <td>Register At</td>
+                                    <td>Inscrit en </td>
                                     <td>{{ $user->created_at->format('d-m-Y H:i') }}</td>
                                 </tr>
                                 <tr>
-                                    <td>Is Admin</td>
-                                    <td>{{ $user->is_admin ? 'Yes' : 'No' }}</td>
+                                    <td>Est administrateur</td>
+                                    <td>{{ $user->is_admin ? 'Oui' : 'Non' }}</td>
                                 </tr>
                                 <tr>
-                                    <td>API Token</td>
-                                    <td>{{ $user->api_token }}</td>
-                                </tr>
-                                <tr>
-                                    <td>Number of Posts</td>
+                                    <td>Nombre des articles</td>
                                     <td>{{ $user->posts_count }}</td>
                                 </tr>
                                 <tr>
-                                    <td>Number of Comments</td>
+                                    <td>Nombre des commentaires</td>
                                     <td>{{ $user->comments_count }}</td>
                                 </tr>
                             </tbody>

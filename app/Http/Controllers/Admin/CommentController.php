@@ -29,13 +29,13 @@ class CommentController extends Controller
     public function destroy(Comment $comment)
     {
         if ($comment->user_id != auth()->user()->id && auth()->user()->is_admin == false) {
-            flash()->overlay("You can't delete other peoples comment.");
+            flash()->overlay("Vous ne pouvez pas effacer les commentaires des autres utilisateurs.");
 
             return redirect('/admin/posts');
         }
 
         $comment->delete();
-        flash()->overlay('Comment deleted successfully.');
+        flash()->overlay('Commentaire effacé avec succès.');
 
         return redirect('/admin/comments');
     }
