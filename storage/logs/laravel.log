@@ -15968,3 +15968,1083 @@ Stack trace:
 [stacktrace]
 #0 {main}
 "} 
+[2022-05-16 20:53:58] laravel.EMERGENCY: Unable to create configured logger. Using emergency logger. {"exception":"[object] (InvalidArgumentException(code: 0): Log [] is not defined. at C:\\laragon\\www\\blog\\vendor\\laravel\\framework\\src\\Illuminate\\Log\\LogManager.php:192)
+[stacktrace]
+#0 C:\\laragon\\www\\blog\\vendor\\laravel\\framework\\src\\Illuminate\\Log\\LogManager.php(118): Illuminate\\Log\\LogManager->resolve(NULL)
+#1 C:\\laragon\\www\\blog\\vendor\\laravel\\framework\\src\\Illuminate\\Log\\LogManager.php(98): Illuminate\\Log\\LogManager->get(NULL)
+#2 C:\\laragon\\www\\blog\\vendor\\laravel\\framework\\src\\Illuminate\\Log\\LogManager.php(543): Illuminate\\Log\\LogManager->driver()
+#3 C:\\laragon\\www\\blog\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Exceptions\\Handler.php(123): Illuminate\\Log\\LogManager->error('Uncaught Reflec...', Array)
+#4 C:\\laragon\\www\\blog\\app\\Exceptions\\Handler.php(35): Illuminate\\Foundation\\Exceptions\\Handler->report(Object(Symfony\\Component\\ErrorHandler\\Error\\FatalError))
+#5 C:\\laragon\\www\\blog\\vendor\
+unomaduro\\collision\\src\\Adapters\\Laravel\\ExceptionHandler.php(57): App\\Exceptions\\Handler->report(Object(Symfony\\Component\\ErrorHandler\\Error\\FatalError))
+#6 C:\\laragon\\www\\blog\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\HandleExceptions.php(88): NunoMaduro\\Collision\\Adapters\\Laravel\\ExceptionHandler->report(Object(Symfony\\Component\\ErrorHandler\\Error\\FatalError))
+#7 C:\\laragon\\www\\blog\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\HandleExceptions.php(130): Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleException(Object(Symfony\\Component\\ErrorHandler\\Error\\FatalError))
+#8 [internal function]: Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleShutdown()
+#9 {main}
+"} 
+[2022-05-16 20:53:58] laravel.ERROR: Uncaught ReflectionException: Class "App\Policies\ModelPolicy" does not exist in Command line code:1
+Stack trace:
+#0 Command line code(1): ReflectionClass->__construct('App\\Policies\\Mo...')
+#1 [internal function]: {closure}('App\\Policies\\Mo...', 'App\\Model')
+#2 Command line code(1): array_map(Object(Closure), Array, Array)
+#3 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught ReflectionException: Class \"App\\Policies\\ModelPolicy\" does not exist in Command line code:1
+Stack trace:
+#0 Command line code(1): ReflectionClass->__construct('App\\\\Policies\\\\Mo...')
+#1 [internal function]: {closure}('App\\\\Policies\\\\Mo...', 'App\\\\Model')
+#2 Command line code(1): array_map(Object(Closure), Array, Array)
+#3 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2022-05-16 20:54:56] laravel.EMERGENCY: Unable to create configured logger. Using emergency logger. {"exception":"[object] (InvalidArgumentException(code: 0): Log [] is not defined. at C:\\laragon\\www\\blog\\vendor\\laravel\\framework\\src\\Illuminate\\Log\\LogManager.php:192)
+[stacktrace]
+#0 C:\\laragon\\www\\blog\\vendor\\laravel\\framework\\src\\Illuminate\\Log\\LogManager.php(118): Illuminate\\Log\\LogManager->resolve(NULL)
+#1 C:\\laragon\\www\\blog\\vendor\\laravel\\framework\\src\\Illuminate\\Log\\LogManager.php(98): Illuminate\\Log\\LogManager->get(NULL)
+#2 C:\\laragon\\www\\blog\\vendor\\laravel\\framework\\src\\Illuminate\\Log\\LogManager.php(543): Illuminate\\Log\\LogManager->driver()
+#3 C:\\laragon\\www\\blog\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Exceptions\\Handler.php(123): Illuminate\\Log\\LogManager->error('Uncaught Reflec...', Array)
+#4 C:\\laragon\\www\\blog\\app\\Exceptions\\Handler.php(35): Illuminate\\Foundation\\Exceptions\\Handler->report(Object(Symfony\\Component\\ErrorHandler\\Error\\FatalError))
+#5 C:\\laragon\\www\\blog\\vendor\
+unomaduro\\collision\\src\\Adapters\\Laravel\\ExceptionHandler.php(57): App\\Exceptions\\Handler->report(Object(Symfony\\Component\\ErrorHandler\\Error\\FatalError))
+#6 C:\\laragon\\www\\blog\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\HandleExceptions.php(88): NunoMaduro\\Collision\\Adapters\\Laravel\\ExceptionHandler->report(Object(Symfony\\Component\\ErrorHandler\\Error\\FatalError))
+#7 C:\\laragon\\www\\blog\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\HandleExceptions.php(130): Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleException(Object(Symfony\\Component\\ErrorHandler\\Error\\FatalError))
+#8 [internal function]: Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleShutdown()
+#9 {main}
+"} 
+[2022-05-16 20:54:56] laravel.ERROR: Uncaught ReflectionException: Class "App\Policies\ModelPolicy" does not exist in Command line code:1
+Stack trace:
+#0 Command line code(1): ReflectionClass->__construct('App\\Policies\\Mo...')
+#1 [internal function]: {closure}('App\\Policies\\Mo...', 'App\\Model')
+#2 Command line code(1): array_map(Object(Closure), Array, Array)
+#3 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught ReflectionException: Class \"App\\Policies\\ModelPolicy\" does not exist in Command line code:1
+Stack trace:
+#0 Command line code(1): ReflectionClass->__construct('App\\\\Policies\\\\Mo...')
+#1 [internal function]: {closure}('App\\\\Policies\\\\Mo...', 'App\\\\Model')
+#2 Command line code(1): array_map(Object(Closure), Array, Array)
+#3 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2022-05-16 20:55:59] laravel.EMERGENCY: Unable to create configured logger. Using emergency logger. {"exception":"[object] (InvalidArgumentException(code: 0): Log [] is not defined. at C:\\laragon\\www\\blog\\vendor\\laravel\\framework\\src\\Illuminate\\Log\\LogManager.php:192)
+[stacktrace]
+#0 C:\\laragon\\www\\blog\\vendor\\laravel\\framework\\src\\Illuminate\\Log\\LogManager.php(118): Illuminate\\Log\\LogManager->resolve(NULL)
+#1 C:\\laragon\\www\\blog\\vendor\\laravel\\framework\\src\\Illuminate\\Log\\LogManager.php(98): Illuminate\\Log\\LogManager->get(NULL)
+#2 C:\\laragon\\www\\blog\\vendor\\laravel\\framework\\src\\Illuminate\\Log\\LogManager.php(543): Illuminate\\Log\\LogManager->driver()
+#3 C:\\laragon\\www\\blog\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Exceptions\\Handler.php(123): Illuminate\\Log\\LogManager->error('Uncaught Reflec...', Array)
+#4 C:\\laragon\\www\\blog\\app\\Exceptions\\Handler.php(35): Illuminate\\Foundation\\Exceptions\\Handler->report(Object(Symfony\\Component\\ErrorHandler\\Error\\FatalError))
+#5 C:\\laragon\\www\\blog\\vendor\
+unomaduro\\collision\\src\\Adapters\\Laravel\\ExceptionHandler.php(57): App\\Exceptions\\Handler->report(Object(Symfony\\Component\\ErrorHandler\\Error\\FatalError))
+#6 C:\\laragon\\www\\blog\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\HandleExceptions.php(88): NunoMaduro\\Collision\\Adapters\\Laravel\\ExceptionHandler->report(Object(Symfony\\Component\\ErrorHandler\\Error\\FatalError))
+#7 C:\\laragon\\www\\blog\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\HandleExceptions.php(130): Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleException(Object(Symfony\\Component\\ErrorHandler\\Error\\FatalError))
+#8 [internal function]: Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleShutdown()
+#9 {main}
+"} 
+[2022-05-16 20:55:59] laravel.ERROR: Uncaught ReflectionException: Class "App\Policies\ModelPolicy" does not exist in Command line code:1
+Stack trace:
+#0 Command line code(1): ReflectionClass->__construct('App\\Policies\\Mo...')
+#1 [internal function]: {closure}('App\\Policies\\Mo...', 'App\\Model')
+#2 Command line code(1): array_map(Object(Closure), Array, Array)
+#3 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught ReflectionException: Class \"App\\Policies\\ModelPolicy\" does not exist in Command line code:1
+Stack trace:
+#0 Command line code(1): ReflectionClass->__construct('App\\\\Policies\\\\Mo...')
+#1 [internal function]: {closure}('App\\\\Policies\\\\Mo...', 'App\\\\Model')
+#2 Command line code(1): array_map(Object(Closure), Array, Array)
+#3 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2022-05-16 20:56:56] laravel.EMERGENCY: Unable to create configured logger. Using emergency logger. {"exception":"[object] (InvalidArgumentException(code: 0): Log [] is not defined. at C:\\laragon\\www\\blog\\vendor\\laravel\\framework\\src\\Illuminate\\Log\\LogManager.php:192)
+[stacktrace]
+#0 C:\\laragon\\www\\blog\\vendor\\laravel\\framework\\src\\Illuminate\\Log\\LogManager.php(118): Illuminate\\Log\\LogManager->resolve(NULL)
+#1 C:\\laragon\\www\\blog\\vendor\\laravel\\framework\\src\\Illuminate\\Log\\LogManager.php(98): Illuminate\\Log\\LogManager->get(NULL)
+#2 C:\\laragon\\www\\blog\\vendor\\laravel\\framework\\src\\Illuminate\\Log\\LogManager.php(543): Illuminate\\Log\\LogManager->driver()
+#3 C:\\laragon\\www\\blog\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Exceptions\\Handler.php(123): Illuminate\\Log\\LogManager->error('Uncaught Reflec...', Array)
+#4 C:\\laragon\\www\\blog\\app\\Exceptions\\Handler.php(35): Illuminate\\Foundation\\Exceptions\\Handler->report(Object(Symfony\\Component\\ErrorHandler\\Error\\FatalError))
+#5 C:\\laragon\\www\\blog\\vendor\
+unomaduro\\collision\\src\\Adapters\\Laravel\\ExceptionHandler.php(57): App\\Exceptions\\Handler->report(Object(Symfony\\Component\\ErrorHandler\\Error\\FatalError))
+#6 C:\\laragon\\www\\blog\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\HandleExceptions.php(88): NunoMaduro\\Collision\\Adapters\\Laravel\\ExceptionHandler->report(Object(Symfony\\Component\\ErrorHandler\\Error\\FatalError))
+#7 C:\\laragon\\www\\blog\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\HandleExceptions.php(130): Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleException(Object(Symfony\\Component\\ErrorHandler\\Error\\FatalError))
+#8 [internal function]: Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleShutdown()
+#9 {main}
+"} 
+[2022-05-16 20:56:56] laravel.ERROR: Uncaught ReflectionException: Class "App\Policies\ModelPolicy" does not exist in Command line code:1
+Stack trace:
+#0 Command line code(1): ReflectionClass->__construct('App\\Policies\\Mo...')
+#1 [internal function]: {closure}('App\\Policies\\Mo...', 'App\\Model')
+#2 Command line code(1): array_map(Object(Closure), Array, Array)
+#3 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught ReflectionException: Class \"App\\Policies\\ModelPolicy\" does not exist in Command line code:1
+Stack trace:
+#0 Command line code(1): ReflectionClass->__construct('App\\\\Policies\\\\Mo...')
+#1 [internal function]: {closure}('App\\\\Policies\\\\Mo...', 'App\\\\Model')
+#2 Command line code(1): array_map(Object(Closure), Array, Array)
+#3 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2022-05-16 20:57:56] laravel.EMERGENCY: Unable to create configured logger. Using emergency logger. {"exception":"[object] (InvalidArgumentException(code: 0): Log [] is not defined. at C:\\laragon\\www\\blog\\vendor\\laravel\\framework\\src\\Illuminate\\Log\\LogManager.php:192)
+[stacktrace]
+#0 C:\\laragon\\www\\blog\\vendor\\laravel\\framework\\src\\Illuminate\\Log\\LogManager.php(118): Illuminate\\Log\\LogManager->resolve(NULL)
+#1 C:\\laragon\\www\\blog\\vendor\\laravel\\framework\\src\\Illuminate\\Log\\LogManager.php(98): Illuminate\\Log\\LogManager->get(NULL)
+#2 C:\\laragon\\www\\blog\\vendor\\laravel\\framework\\src\\Illuminate\\Log\\LogManager.php(543): Illuminate\\Log\\LogManager->driver()
+#3 C:\\laragon\\www\\blog\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Exceptions\\Handler.php(123): Illuminate\\Log\\LogManager->error('Uncaught Reflec...', Array)
+#4 C:\\laragon\\www\\blog\\app\\Exceptions\\Handler.php(35): Illuminate\\Foundation\\Exceptions\\Handler->report(Object(Symfony\\Component\\ErrorHandler\\Error\\FatalError))
+#5 C:\\laragon\\www\\blog\\vendor\
+unomaduro\\collision\\src\\Adapters\\Laravel\\ExceptionHandler.php(57): App\\Exceptions\\Handler->report(Object(Symfony\\Component\\ErrorHandler\\Error\\FatalError))
+#6 C:\\laragon\\www\\blog\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\HandleExceptions.php(88): NunoMaduro\\Collision\\Adapters\\Laravel\\ExceptionHandler->report(Object(Symfony\\Component\\ErrorHandler\\Error\\FatalError))
+#7 C:\\laragon\\www\\blog\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\HandleExceptions.php(130): Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleException(Object(Symfony\\Component\\ErrorHandler\\Error\\FatalError))
+#8 [internal function]: Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleShutdown()
+#9 {main}
+"} 
+[2022-05-16 20:57:56] laravel.ERROR: Uncaught ReflectionException: Class "App\Policies\ModelPolicy" does not exist in Command line code:1
+Stack trace:
+#0 Command line code(1): ReflectionClass->__construct('App\\Policies\\Mo...')
+#1 [internal function]: {closure}('App\\Policies\\Mo...', 'App\\Model')
+#2 Command line code(1): array_map(Object(Closure), Array, Array)
+#3 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught ReflectionException: Class \"App\\Policies\\ModelPolicy\" does not exist in Command line code:1
+Stack trace:
+#0 Command line code(1): ReflectionClass->__construct('App\\\\Policies\\\\Mo...')
+#1 [internal function]: {closure}('App\\\\Policies\\\\Mo...', 'App\\\\Model')
+#2 Command line code(1): array_map(Object(Closure), Array, Array)
+#3 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2022-05-16 20:58:56] laravel.EMERGENCY: Unable to create configured logger. Using emergency logger. {"exception":"[object] (InvalidArgumentException(code: 0): Log [] is not defined. at C:\\laragon\\www\\blog\\vendor\\laravel\\framework\\src\\Illuminate\\Log\\LogManager.php:192)
+[stacktrace]
+#0 C:\\laragon\\www\\blog\\vendor\\laravel\\framework\\src\\Illuminate\\Log\\LogManager.php(118): Illuminate\\Log\\LogManager->resolve(NULL)
+#1 C:\\laragon\\www\\blog\\vendor\\laravel\\framework\\src\\Illuminate\\Log\\LogManager.php(98): Illuminate\\Log\\LogManager->get(NULL)
+#2 C:\\laragon\\www\\blog\\vendor\\laravel\\framework\\src\\Illuminate\\Log\\LogManager.php(543): Illuminate\\Log\\LogManager->driver()
+#3 C:\\laragon\\www\\blog\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Exceptions\\Handler.php(123): Illuminate\\Log\\LogManager->error('Uncaught Reflec...', Array)
+#4 C:\\laragon\\www\\blog\\app\\Exceptions\\Handler.php(35): Illuminate\\Foundation\\Exceptions\\Handler->report(Object(Symfony\\Component\\ErrorHandler\\Error\\FatalError))
+#5 C:\\laragon\\www\\blog\\vendor\
+unomaduro\\collision\\src\\Adapters\\Laravel\\ExceptionHandler.php(57): App\\Exceptions\\Handler->report(Object(Symfony\\Component\\ErrorHandler\\Error\\FatalError))
+#6 C:\\laragon\\www\\blog\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\HandleExceptions.php(88): NunoMaduro\\Collision\\Adapters\\Laravel\\ExceptionHandler->report(Object(Symfony\\Component\\ErrorHandler\\Error\\FatalError))
+#7 C:\\laragon\\www\\blog\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\HandleExceptions.php(130): Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleException(Object(Symfony\\Component\\ErrorHandler\\Error\\FatalError))
+#8 [internal function]: Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleShutdown()
+#9 {main}
+"} 
+[2022-05-16 20:58:56] laravel.ERROR: Uncaught ReflectionException: Class "App\Policies\ModelPolicy" does not exist in Command line code:1
+Stack trace:
+#0 Command line code(1): ReflectionClass->__construct('App\\Policies\\Mo...')
+#1 [internal function]: {closure}('App\\Policies\\Mo...', 'App\\Model')
+#2 Command line code(1): array_map(Object(Closure), Array, Array)
+#3 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught ReflectionException: Class \"App\\Policies\\ModelPolicy\" does not exist in Command line code:1
+Stack trace:
+#0 Command line code(1): ReflectionClass->__construct('App\\\\Policies\\\\Mo...')
+#1 [internal function]: {closure}('App\\\\Policies\\\\Mo...', 'App\\\\Model')
+#2 Command line code(1): array_map(Object(Closure), Array, Array)
+#3 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2022-05-16 20:59:56] laravel.EMERGENCY: Unable to create configured logger. Using emergency logger. {"exception":"[object] (InvalidArgumentException(code: 0): Log [] is not defined. at C:\\laragon\\www\\blog\\vendor\\laravel\\framework\\src\\Illuminate\\Log\\LogManager.php:192)
+[stacktrace]
+#0 C:\\laragon\\www\\blog\\vendor\\laravel\\framework\\src\\Illuminate\\Log\\LogManager.php(118): Illuminate\\Log\\LogManager->resolve(NULL)
+#1 C:\\laragon\\www\\blog\\vendor\\laravel\\framework\\src\\Illuminate\\Log\\LogManager.php(98): Illuminate\\Log\\LogManager->get(NULL)
+#2 C:\\laragon\\www\\blog\\vendor\\laravel\\framework\\src\\Illuminate\\Log\\LogManager.php(543): Illuminate\\Log\\LogManager->driver()
+#3 C:\\laragon\\www\\blog\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Exceptions\\Handler.php(123): Illuminate\\Log\\LogManager->error('Uncaught Reflec...', Array)
+#4 C:\\laragon\\www\\blog\\app\\Exceptions\\Handler.php(35): Illuminate\\Foundation\\Exceptions\\Handler->report(Object(Symfony\\Component\\ErrorHandler\\Error\\FatalError))
+#5 C:\\laragon\\www\\blog\\vendor\
+unomaduro\\collision\\src\\Adapters\\Laravel\\ExceptionHandler.php(57): App\\Exceptions\\Handler->report(Object(Symfony\\Component\\ErrorHandler\\Error\\FatalError))
+#6 C:\\laragon\\www\\blog\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\HandleExceptions.php(88): NunoMaduro\\Collision\\Adapters\\Laravel\\ExceptionHandler->report(Object(Symfony\\Component\\ErrorHandler\\Error\\FatalError))
+#7 C:\\laragon\\www\\blog\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\HandleExceptions.php(130): Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleException(Object(Symfony\\Component\\ErrorHandler\\Error\\FatalError))
+#8 [internal function]: Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleShutdown()
+#9 {main}
+"} 
+[2022-05-16 20:59:56] laravel.ERROR: Uncaught ReflectionException: Class "App\Policies\ModelPolicy" does not exist in Command line code:1
+Stack trace:
+#0 Command line code(1): ReflectionClass->__construct('App\\Policies\\Mo...')
+#1 [internal function]: {closure}('App\\Policies\\Mo...', 'App\\Model')
+#2 Command line code(1): array_map(Object(Closure), Array, Array)
+#3 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught ReflectionException: Class \"App\\Policies\\ModelPolicy\" does not exist in Command line code:1
+Stack trace:
+#0 Command line code(1): ReflectionClass->__construct('App\\\\Policies\\\\Mo...')
+#1 [internal function]: {closure}('App\\\\Policies\\\\Mo...', 'App\\\\Model')
+#2 Command line code(1): array_map(Object(Closure), Array, Array)
+#3 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2022-05-16 21:00:56] laravel.EMERGENCY: Unable to create configured logger. Using emergency logger. {"exception":"[object] (InvalidArgumentException(code: 0): Log [] is not defined. at C:\\laragon\\www\\blog\\vendor\\laravel\\framework\\src\\Illuminate\\Log\\LogManager.php:192)
+[stacktrace]
+#0 C:\\laragon\\www\\blog\\vendor\\laravel\\framework\\src\\Illuminate\\Log\\LogManager.php(118): Illuminate\\Log\\LogManager->resolve(NULL)
+#1 C:\\laragon\\www\\blog\\vendor\\laravel\\framework\\src\\Illuminate\\Log\\LogManager.php(98): Illuminate\\Log\\LogManager->get(NULL)
+#2 C:\\laragon\\www\\blog\\vendor\\laravel\\framework\\src\\Illuminate\\Log\\LogManager.php(543): Illuminate\\Log\\LogManager->driver()
+#3 C:\\laragon\\www\\blog\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Exceptions\\Handler.php(123): Illuminate\\Log\\LogManager->error('Uncaught Reflec...', Array)
+#4 C:\\laragon\\www\\blog\\app\\Exceptions\\Handler.php(35): Illuminate\\Foundation\\Exceptions\\Handler->report(Object(Symfony\\Component\\ErrorHandler\\Error\\FatalError))
+#5 C:\\laragon\\www\\blog\\vendor\
+unomaduro\\collision\\src\\Adapters\\Laravel\\ExceptionHandler.php(57): App\\Exceptions\\Handler->report(Object(Symfony\\Component\\ErrorHandler\\Error\\FatalError))
+#6 C:\\laragon\\www\\blog\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\HandleExceptions.php(88): NunoMaduro\\Collision\\Adapters\\Laravel\\ExceptionHandler->report(Object(Symfony\\Component\\ErrorHandler\\Error\\FatalError))
+#7 C:\\laragon\\www\\blog\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\HandleExceptions.php(130): Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleException(Object(Symfony\\Component\\ErrorHandler\\Error\\FatalError))
+#8 [internal function]: Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleShutdown()
+#9 {main}
+"} 
+[2022-05-16 21:00:56] laravel.ERROR: Uncaught ReflectionException: Class "App\Policies\ModelPolicy" does not exist in Command line code:1
+Stack trace:
+#0 Command line code(1): ReflectionClass->__construct('App\\Policies\\Mo...')
+#1 [internal function]: {closure}('App\\Policies\\Mo...', 'App\\Model')
+#2 Command line code(1): array_map(Object(Closure), Array, Array)
+#3 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught ReflectionException: Class \"App\\Policies\\ModelPolicy\" does not exist in Command line code:1
+Stack trace:
+#0 Command line code(1): ReflectionClass->__construct('App\\\\Policies\\\\Mo...')
+#1 [internal function]: {closure}('App\\\\Policies\\\\Mo...', 'App\\\\Model')
+#2 Command line code(1): array_map(Object(Closure), Array, Array)
+#3 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2022-05-16 21:01:56] laravel.EMERGENCY: Unable to create configured logger. Using emergency logger. {"exception":"[object] (InvalidArgumentException(code: 0): Log [] is not defined. at C:\\laragon\\www\\blog\\vendor\\laravel\\framework\\src\\Illuminate\\Log\\LogManager.php:192)
+[stacktrace]
+#0 C:\\laragon\\www\\blog\\vendor\\laravel\\framework\\src\\Illuminate\\Log\\LogManager.php(118): Illuminate\\Log\\LogManager->resolve(NULL)
+#1 C:\\laragon\\www\\blog\\vendor\\laravel\\framework\\src\\Illuminate\\Log\\LogManager.php(98): Illuminate\\Log\\LogManager->get(NULL)
+#2 C:\\laragon\\www\\blog\\vendor\\laravel\\framework\\src\\Illuminate\\Log\\LogManager.php(543): Illuminate\\Log\\LogManager->driver()
+#3 C:\\laragon\\www\\blog\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Exceptions\\Handler.php(123): Illuminate\\Log\\LogManager->error('Uncaught Reflec...', Array)
+#4 C:\\laragon\\www\\blog\\app\\Exceptions\\Handler.php(35): Illuminate\\Foundation\\Exceptions\\Handler->report(Object(Symfony\\Component\\ErrorHandler\\Error\\FatalError))
+#5 C:\\laragon\\www\\blog\\vendor\
+unomaduro\\collision\\src\\Adapters\\Laravel\\ExceptionHandler.php(57): App\\Exceptions\\Handler->report(Object(Symfony\\Component\\ErrorHandler\\Error\\FatalError))
+#6 C:\\laragon\\www\\blog\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\HandleExceptions.php(88): NunoMaduro\\Collision\\Adapters\\Laravel\\ExceptionHandler->report(Object(Symfony\\Component\\ErrorHandler\\Error\\FatalError))
+#7 C:\\laragon\\www\\blog\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\HandleExceptions.php(130): Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleException(Object(Symfony\\Component\\ErrorHandler\\Error\\FatalError))
+#8 [internal function]: Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleShutdown()
+#9 {main}
+"} 
+[2022-05-16 21:01:56] laravel.ERROR: Uncaught ReflectionException: Class "App\Policies\ModelPolicy" does not exist in Command line code:1
+Stack trace:
+#0 Command line code(1): ReflectionClass->__construct('App\\Policies\\Mo...')
+#1 [internal function]: {closure}('App\\Policies\\Mo...', 'App\\Model')
+#2 Command line code(1): array_map(Object(Closure), Array, Array)
+#3 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught ReflectionException: Class \"App\\Policies\\ModelPolicy\" does not exist in Command line code:1
+Stack trace:
+#0 Command line code(1): ReflectionClass->__construct('App\\\\Policies\\\\Mo...')
+#1 [internal function]: {closure}('App\\\\Policies\\\\Mo...', 'App\\\\Model')
+#2 Command line code(1): array_map(Object(Closure), Array, Array)
+#3 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2022-05-16 21:02:57] laravel.EMERGENCY: Unable to create configured logger. Using emergency logger. {"exception":"[object] (InvalidArgumentException(code: 0): Log [] is not defined. at C:\\laragon\\www\\blog\\vendor\\laravel\\framework\\src\\Illuminate\\Log\\LogManager.php:192)
+[stacktrace]
+#0 C:\\laragon\\www\\blog\\vendor\\laravel\\framework\\src\\Illuminate\\Log\\LogManager.php(118): Illuminate\\Log\\LogManager->resolve(NULL)
+#1 C:\\laragon\\www\\blog\\vendor\\laravel\\framework\\src\\Illuminate\\Log\\LogManager.php(98): Illuminate\\Log\\LogManager->get(NULL)
+#2 C:\\laragon\\www\\blog\\vendor\\laravel\\framework\\src\\Illuminate\\Log\\LogManager.php(543): Illuminate\\Log\\LogManager->driver()
+#3 C:\\laragon\\www\\blog\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Exceptions\\Handler.php(123): Illuminate\\Log\\LogManager->error('Uncaught Reflec...', Array)
+#4 C:\\laragon\\www\\blog\\app\\Exceptions\\Handler.php(35): Illuminate\\Foundation\\Exceptions\\Handler->report(Object(Symfony\\Component\\ErrorHandler\\Error\\FatalError))
+#5 C:\\laragon\\www\\blog\\vendor\
+unomaduro\\collision\\src\\Adapters\\Laravel\\ExceptionHandler.php(57): App\\Exceptions\\Handler->report(Object(Symfony\\Component\\ErrorHandler\\Error\\FatalError))
+#6 C:\\laragon\\www\\blog\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\HandleExceptions.php(88): NunoMaduro\\Collision\\Adapters\\Laravel\\ExceptionHandler->report(Object(Symfony\\Component\\ErrorHandler\\Error\\FatalError))
+#7 C:\\laragon\\www\\blog\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\HandleExceptions.php(130): Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleException(Object(Symfony\\Component\\ErrorHandler\\Error\\FatalError))
+#8 [internal function]: Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleShutdown()
+#9 {main}
+"} 
+[2022-05-16 21:02:57] laravel.ERROR: Uncaught ReflectionException: Class "App\Policies\ModelPolicy" does not exist in Command line code:1
+Stack trace:
+#0 Command line code(1): ReflectionClass->__construct('App\\Policies\\Mo...')
+#1 [internal function]: {closure}('App\\Policies\\Mo...', 'App\\Model')
+#2 Command line code(1): array_map(Object(Closure), Array, Array)
+#3 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught ReflectionException: Class \"App\\Policies\\ModelPolicy\" does not exist in Command line code:1
+Stack trace:
+#0 Command line code(1): ReflectionClass->__construct('App\\\\Policies\\\\Mo...')
+#1 [internal function]: {closure}('App\\\\Policies\\\\Mo...', 'App\\\\Model')
+#2 Command line code(1): array_map(Object(Closure), Array, Array)
+#3 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2022-05-16 21:03:56] laravel.EMERGENCY: Unable to create configured logger. Using emergency logger. {"exception":"[object] (InvalidArgumentException(code: 0): Log [] is not defined. at C:\\laragon\\www\\blog\\vendor\\laravel\\framework\\src\\Illuminate\\Log\\LogManager.php:192)
+[stacktrace]
+#0 C:\\laragon\\www\\blog\\vendor\\laravel\\framework\\src\\Illuminate\\Log\\LogManager.php(118): Illuminate\\Log\\LogManager->resolve(NULL)
+#1 C:\\laragon\\www\\blog\\vendor\\laravel\\framework\\src\\Illuminate\\Log\\LogManager.php(98): Illuminate\\Log\\LogManager->get(NULL)
+#2 C:\\laragon\\www\\blog\\vendor\\laravel\\framework\\src\\Illuminate\\Log\\LogManager.php(543): Illuminate\\Log\\LogManager->driver()
+#3 C:\\laragon\\www\\blog\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Exceptions\\Handler.php(123): Illuminate\\Log\\LogManager->error('Uncaught Reflec...', Array)
+#4 C:\\laragon\\www\\blog\\app\\Exceptions\\Handler.php(35): Illuminate\\Foundation\\Exceptions\\Handler->report(Object(Symfony\\Component\\ErrorHandler\\Error\\FatalError))
+#5 C:\\laragon\\www\\blog\\vendor\
+unomaduro\\collision\\src\\Adapters\\Laravel\\ExceptionHandler.php(57): App\\Exceptions\\Handler->report(Object(Symfony\\Component\\ErrorHandler\\Error\\FatalError))
+#6 C:\\laragon\\www\\blog\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\HandleExceptions.php(88): NunoMaduro\\Collision\\Adapters\\Laravel\\ExceptionHandler->report(Object(Symfony\\Component\\ErrorHandler\\Error\\FatalError))
+#7 C:\\laragon\\www\\blog\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\HandleExceptions.php(130): Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleException(Object(Symfony\\Component\\ErrorHandler\\Error\\FatalError))
+#8 [internal function]: Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleShutdown()
+#9 {main}
+"} 
+[2022-05-16 21:03:56] laravel.ERROR: Uncaught ReflectionException: Class "App\Policies\ModelPolicy" does not exist in Command line code:1
+Stack trace:
+#0 Command line code(1): ReflectionClass->__construct('App\\Policies\\Mo...')
+#1 [internal function]: {closure}('App\\Policies\\Mo...', 'App\\Model')
+#2 Command line code(1): array_map(Object(Closure), Array, Array)
+#3 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught ReflectionException: Class \"App\\Policies\\ModelPolicy\" does not exist in Command line code:1
+Stack trace:
+#0 Command line code(1): ReflectionClass->__construct('App\\\\Policies\\\\Mo...')
+#1 [internal function]: {closure}('App\\\\Policies\\\\Mo...', 'App\\\\Model')
+#2 Command line code(1): array_map(Object(Closure), Array, Array)
+#3 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2022-05-16 21:04:57] laravel.EMERGENCY: Unable to create configured logger. Using emergency logger. {"exception":"[object] (InvalidArgumentException(code: 0): Log [] is not defined. at C:\\laragon\\www\\blog\\vendor\\laravel\\framework\\src\\Illuminate\\Log\\LogManager.php:192)
+[stacktrace]
+#0 C:\\laragon\\www\\blog\\vendor\\laravel\\framework\\src\\Illuminate\\Log\\LogManager.php(118): Illuminate\\Log\\LogManager->resolve(NULL)
+#1 C:\\laragon\\www\\blog\\vendor\\laravel\\framework\\src\\Illuminate\\Log\\LogManager.php(98): Illuminate\\Log\\LogManager->get(NULL)
+#2 C:\\laragon\\www\\blog\\vendor\\laravel\\framework\\src\\Illuminate\\Log\\LogManager.php(543): Illuminate\\Log\\LogManager->driver()
+#3 C:\\laragon\\www\\blog\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Exceptions\\Handler.php(123): Illuminate\\Log\\LogManager->error('Uncaught Reflec...', Array)
+#4 C:\\laragon\\www\\blog\\app\\Exceptions\\Handler.php(35): Illuminate\\Foundation\\Exceptions\\Handler->report(Object(Symfony\\Component\\ErrorHandler\\Error\\FatalError))
+#5 C:\\laragon\\www\\blog\\vendor\
+unomaduro\\collision\\src\\Adapters\\Laravel\\ExceptionHandler.php(57): App\\Exceptions\\Handler->report(Object(Symfony\\Component\\ErrorHandler\\Error\\FatalError))
+#6 C:\\laragon\\www\\blog\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\HandleExceptions.php(88): NunoMaduro\\Collision\\Adapters\\Laravel\\ExceptionHandler->report(Object(Symfony\\Component\\ErrorHandler\\Error\\FatalError))
+#7 C:\\laragon\\www\\blog\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\HandleExceptions.php(130): Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleException(Object(Symfony\\Component\\ErrorHandler\\Error\\FatalError))
+#8 [internal function]: Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleShutdown()
+#9 {main}
+"} 
+[2022-05-16 21:04:57] laravel.ERROR: Uncaught ReflectionException: Class "App\Policies\ModelPolicy" does not exist in Command line code:1
+Stack trace:
+#0 Command line code(1): ReflectionClass->__construct('App\\Policies\\Mo...')
+#1 [internal function]: {closure}('App\\Policies\\Mo...', 'App\\Model')
+#2 Command line code(1): array_map(Object(Closure), Array, Array)
+#3 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught ReflectionException: Class \"App\\Policies\\ModelPolicy\" does not exist in Command line code:1
+Stack trace:
+#0 Command line code(1): ReflectionClass->__construct('App\\\\Policies\\\\Mo...')
+#1 [internal function]: {closure}('App\\\\Policies\\\\Mo...', 'App\\\\Model')
+#2 Command line code(1): array_map(Object(Closure), Array, Array)
+#3 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2022-05-16 21:05:57] laravel.EMERGENCY: Unable to create configured logger. Using emergency logger. {"exception":"[object] (InvalidArgumentException(code: 0): Log [] is not defined. at C:\\laragon\\www\\blog\\vendor\\laravel\\framework\\src\\Illuminate\\Log\\LogManager.php:192)
+[stacktrace]
+#0 C:\\laragon\\www\\blog\\vendor\\laravel\\framework\\src\\Illuminate\\Log\\LogManager.php(118): Illuminate\\Log\\LogManager->resolve(NULL)
+#1 C:\\laragon\\www\\blog\\vendor\\laravel\\framework\\src\\Illuminate\\Log\\LogManager.php(98): Illuminate\\Log\\LogManager->get(NULL)
+#2 C:\\laragon\\www\\blog\\vendor\\laravel\\framework\\src\\Illuminate\\Log\\LogManager.php(543): Illuminate\\Log\\LogManager->driver()
+#3 C:\\laragon\\www\\blog\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Exceptions\\Handler.php(123): Illuminate\\Log\\LogManager->error('Uncaught Reflec...', Array)
+#4 C:\\laragon\\www\\blog\\app\\Exceptions\\Handler.php(35): Illuminate\\Foundation\\Exceptions\\Handler->report(Object(Symfony\\Component\\ErrorHandler\\Error\\FatalError))
+#5 C:\\laragon\\www\\blog\\vendor\
+unomaduro\\collision\\src\\Adapters\\Laravel\\ExceptionHandler.php(57): App\\Exceptions\\Handler->report(Object(Symfony\\Component\\ErrorHandler\\Error\\FatalError))
+#6 C:\\laragon\\www\\blog\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\HandleExceptions.php(88): NunoMaduro\\Collision\\Adapters\\Laravel\\ExceptionHandler->report(Object(Symfony\\Component\\ErrorHandler\\Error\\FatalError))
+#7 C:\\laragon\\www\\blog\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\HandleExceptions.php(130): Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleException(Object(Symfony\\Component\\ErrorHandler\\Error\\FatalError))
+#8 [internal function]: Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleShutdown()
+#9 {main}
+"} 
+[2022-05-16 21:05:57] laravel.ERROR: Uncaught ReflectionException: Class "App\Policies\ModelPolicy" does not exist in Command line code:1
+Stack trace:
+#0 Command line code(1): ReflectionClass->__construct('App\\Policies\\Mo...')
+#1 [internal function]: {closure}('App\\Policies\\Mo...', 'App\\Model')
+#2 Command line code(1): array_map(Object(Closure), Array, Array)
+#3 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught ReflectionException: Class \"App\\Policies\\ModelPolicy\" does not exist in Command line code:1
+Stack trace:
+#0 Command line code(1): ReflectionClass->__construct('App\\\\Policies\\\\Mo...')
+#1 [internal function]: {closure}('App\\\\Policies\\\\Mo...', 'App\\\\Model')
+#2 Command line code(1): array_map(Object(Closure), Array, Array)
+#3 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2022-05-16 21:06:56] laravel.EMERGENCY: Unable to create configured logger. Using emergency logger. {"exception":"[object] (InvalidArgumentException(code: 0): Log [] is not defined. at C:\\laragon\\www\\blog\\vendor\\laravel\\framework\\src\\Illuminate\\Log\\LogManager.php:192)
+[stacktrace]
+#0 C:\\laragon\\www\\blog\\vendor\\laravel\\framework\\src\\Illuminate\\Log\\LogManager.php(118): Illuminate\\Log\\LogManager->resolve(NULL)
+#1 C:\\laragon\\www\\blog\\vendor\\laravel\\framework\\src\\Illuminate\\Log\\LogManager.php(98): Illuminate\\Log\\LogManager->get(NULL)
+#2 C:\\laragon\\www\\blog\\vendor\\laravel\\framework\\src\\Illuminate\\Log\\LogManager.php(543): Illuminate\\Log\\LogManager->driver()
+#3 C:\\laragon\\www\\blog\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Exceptions\\Handler.php(123): Illuminate\\Log\\LogManager->error('Uncaught Reflec...', Array)
+#4 C:\\laragon\\www\\blog\\app\\Exceptions\\Handler.php(35): Illuminate\\Foundation\\Exceptions\\Handler->report(Object(Symfony\\Component\\ErrorHandler\\Error\\FatalError))
+#5 C:\\laragon\\www\\blog\\vendor\
+unomaduro\\collision\\src\\Adapters\\Laravel\\ExceptionHandler.php(57): App\\Exceptions\\Handler->report(Object(Symfony\\Component\\ErrorHandler\\Error\\FatalError))
+#6 C:\\laragon\\www\\blog\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\HandleExceptions.php(88): NunoMaduro\\Collision\\Adapters\\Laravel\\ExceptionHandler->report(Object(Symfony\\Component\\ErrorHandler\\Error\\FatalError))
+#7 C:\\laragon\\www\\blog\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\HandleExceptions.php(130): Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleException(Object(Symfony\\Component\\ErrorHandler\\Error\\FatalError))
+#8 [internal function]: Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleShutdown()
+#9 {main}
+"} 
+[2022-05-16 21:06:56] laravel.ERROR: Uncaught ReflectionException: Class "App\Policies\ModelPolicy" does not exist in Command line code:1
+Stack trace:
+#0 Command line code(1): ReflectionClass->__construct('App\\Policies\\Mo...')
+#1 [internal function]: {closure}('App\\Policies\\Mo...', 'App\\Model')
+#2 Command line code(1): array_map(Object(Closure), Array, Array)
+#3 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught ReflectionException: Class \"App\\Policies\\ModelPolicy\" does not exist in Command line code:1
+Stack trace:
+#0 Command line code(1): ReflectionClass->__construct('App\\\\Policies\\\\Mo...')
+#1 [internal function]: {closure}('App\\\\Policies\\\\Mo...', 'App\\\\Model')
+#2 Command line code(1): array_map(Object(Closure), Array, Array)
+#3 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2022-05-16 21:07:57] laravel.EMERGENCY: Unable to create configured logger. Using emergency logger. {"exception":"[object] (InvalidArgumentException(code: 0): Log [] is not defined. at C:\\laragon\\www\\blog\\vendor\\laravel\\framework\\src\\Illuminate\\Log\\LogManager.php:192)
+[stacktrace]
+#0 C:\\laragon\\www\\blog\\vendor\\laravel\\framework\\src\\Illuminate\\Log\\LogManager.php(118): Illuminate\\Log\\LogManager->resolve(NULL)
+#1 C:\\laragon\\www\\blog\\vendor\\laravel\\framework\\src\\Illuminate\\Log\\LogManager.php(98): Illuminate\\Log\\LogManager->get(NULL)
+#2 C:\\laragon\\www\\blog\\vendor\\laravel\\framework\\src\\Illuminate\\Log\\LogManager.php(543): Illuminate\\Log\\LogManager->driver()
+#3 C:\\laragon\\www\\blog\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Exceptions\\Handler.php(123): Illuminate\\Log\\LogManager->error('Uncaught Reflec...', Array)
+#4 C:\\laragon\\www\\blog\\app\\Exceptions\\Handler.php(35): Illuminate\\Foundation\\Exceptions\\Handler->report(Object(Symfony\\Component\\ErrorHandler\\Error\\FatalError))
+#5 C:\\laragon\\www\\blog\\vendor\
+unomaduro\\collision\\src\\Adapters\\Laravel\\ExceptionHandler.php(57): App\\Exceptions\\Handler->report(Object(Symfony\\Component\\ErrorHandler\\Error\\FatalError))
+#6 C:\\laragon\\www\\blog\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\HandleExceptions.php(88): NunoMaduro\\Collision\\Adapters\\Laravel\\ExceptionHandler->report(Object(Symfony\\Component\\ErrorHandler\\Error\\FatalError))
+#7 C:\\laragon\\www\\blog\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\HandleExceptions.php(130): Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleException(Object(Symfony\\Component\\ErrorHandler\\Error\\FatalError))
+#8 [internal function]: Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleShutdown()
+#9 {main}
+"} 
+[2022-05-16 21:07:57] laravel.ERROR: Uncaught ReflectionException: Class "App\Policies\ModelPolicy" does not exist in Command line code:1
+Stack trace:
+#0 Command line code(1): ReflectionClass->__construct('App\\Policies\\Mo...')
+#1 [internal function]: {closure}('App\\Policies\\Mo...', 'App\\Model')
+#2 Command line code(1): array_map(Object(Closure), Array, Array)
+#3 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught ReflectionException: Class \"App\\Policies\\ModelPolicy\" does not exist in Command line code:1
+Stack trace:
+#0 Command line code(1): ReflectionClass->__construct('App\\\\Policies\\\\Mo...')
+#1 [internal function]: {closure}('App\\\\Policies\\\\Mo...', 'App\\\\Model')
+#2 Command line code(1): array_map(Object(Closure), Array, Array)
+#3 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2022-05-16 21:08:56] laravel.EMERGENCY: Unable to create configured logger. Using emergency logger. {"exception":"[object] (InvalidArgumentException(code: 0): Log [] is not defined. at C:\\laragon\\www\\blog\\vendor\\laravel\\framework\\src\\Illuminate\\Log\\LogManager.php:192)
+[stacktrace]
+#0 C:\\laragon\\www\\blog\\vendor\\laravel\\framework\\src\\Illuminate\\Log\\LogManager.php(118): Illuminate\\Log\\LogManager->resolve(NULL)
+#1 C:\\laragon\\www\\blog\\vendor\\laravel\\framework\\src\\Illuminate\\Log\\LogManager.php(98): Illuminate\\Log\\LogManager->get(NULL)
+#2 C:\\laragon\\www\\blog\\vendor\\laravel\\framework\\src\\Illuminate\\Log\\LogManager.php(543): Illuminate\\Log\\LogManager->driver()
+#3 C:\\laragon\\www\\blog\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Exceptions\\Handler.php(123): Illuminate\\Log\\LogManager->error('Uncaught Reflec...', Array)
+#4 C:\\laragon\\www\\blog\\app\\Exceptions\\Handler.php(35): Illuminate\\Foundation\\Exceptions\\Handler->report(Object(Symfony\\Component\\ErrorHandler\\Error\\FatalError))
+#5 C:\\laragon\\www\\blog\\vendor\
+unomaduro\\collision\\src\\Adapters\\Laravel\\ExceptionHandler.php(57): App\\Exceptions\\Handler->report(Object(Symfony\\Component\\ErrorHandler\\Error\\FatalError))
+#6 C:\\laragon\\www\\blog\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\HandleExceptions.php(88): NunoMaduro\\Collision\\Adapters\\Laravel\\ExceptionHandler->report(Object(Symfony\\Component\\ErrorHandler\\Error\\FatalError))
+#7 C:\\laragon\\www\\blog\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\HandleExceptions.php(130): Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleException(Object(Symfony\\Component\\ErrorHandler\\Error\\FatalError))
+#8 [internal function]: Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleShutdown()
+#9 {main}
+"} 
+[2022-05-16 21:08:56] laravel.ERROR: Uncaught ReflectionException: Class "App\Policies\ModelPolicy" does not exist in Command line code:1
+Stack trace:
+#0 Command line code(1): ReflectionClass->__construct('App\\Policies\\Mo...')
+#1 [internal function]: {closure}('App\\Policies\\Mo...', 'App\\Model')
+#2 Command line code(1): array_map(Object(Closure), Array, Array)
+#3 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught ReflectionException: Class \"App\\Policies\\ModelPolicy\" does not exist in Command line code:1
+Stack trace:
+#0 Command line code(1): ReflectionClass->__construct('App\\\\Policies\\\\Mo...')
+#1 [internal function]: {closure}('App\\\\Policies\\\\Mo...', 'App\\\\Model')
+#2 Command line code(1): array_map(Object(Closure), Array, Array)
+#3 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2022-05-16 21:09:56] laravel.EMERGENCY: Unable to create configured logger. Using emergency logger. {"exception":"[object] (InvalidArgumentException(code: 0): Log [] is not defined. at C:\\laragon\\www\\blog\\vendor\\laravel\\framework\\src\\Illuminate\\Log\\LogManager.php:192)
+[stacktrace]
+#0 C:\\laragon\\www\\blog\\vendor\\laravel\\framework\\src\\Illuminate\\Log\\LogManager.php(118): Illuminate\\Log\\LogManager->resolve(NULL)
+#1 C:\\laragon\\www\\blog\\vendor\\laravel\\framework\\src\\Illuminate\\Log\\LogManager.php(98): Illuminate\\Log\\LogManager->get(NULL)
+#2 C:\\laragon\\www\\blog\\vendor\\laravel\\framework\\src\\Illuminate\\Log\\LogManager.php(543): Illuminate\\Log\\LogManager->driver()
+#3 C:\\laragon\\www\\blog\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Exceptions\\Handler.php(123): Illuminate\\Log\\LogManager->error('Uncaught Reflec...', Array)
+#4 C:\\laragon\\www\\blog\\app\\Exceptions\\Handler.php(35): Illuminate\\Foundation\\Exceptions\\Handler->report(Object(Symfony\\Component\\ErrorHandler\\Error\\FatalError))
+#5 C:\\laragon\\www\\blog\\vendor\
+unomaduro\\collision\\src\\Adapters\\Laravel\\ExceptionHandler.php(57): App\\Exceptions\\Handler->report(Object(Symfony\\Component\\ErrorHandler\\Error\\FatalError))
+#6 C:\\laragon\\www\\blog\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\HandleExceptions.php(88): NunoMaduro\\Collision\\Adapters\\Laravel\\ExceptionHandler->report(Object(Symfony\\Component\\ErrorHandler\\Error\\FatalError))
+#7 C:\\laragon\\www\\blog\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\HandleExceptions.php(130): Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleException(Object(Symfony\\Component\\ErrorHandler\\Error\\FatalError))
+#8 [internal function]: Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleShutdown()
+#9 {main}
+"} 
+[2022-05-16 21:09:56] laravel.ERROR: Uncaught ReflectionException: Class "App\Policies\ModelPolicy" does not exist in Command line code:1
+Stack trace:
+#0 Command line code(1): ReflectionClass->__construct('App\\Policies\\Mo...')
+#1 [internal function]: {closure}('App\\Policies\\Mo...', 'App\\Model')
+#2 Command line code(1): array_map(Object(Closure), Array, Array)
+#3 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught ReflectionException: Class \"App\\Policies\\ModelPolicy\" does not exist in Command line code:1
+Stack trace:
+#0 Command line code(1): ReflectionClass->__construct('App\\\\Policies\\\\Mo...')
+#1 [internal function]: {closure}('App\\\\Policies\\\\Mo...', 'App\\\\Model')
+#2 Command line code(1): array_map(Object(Closure), Array, Array)
+#3 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2022-05-16 21:10:57] laravel.EMERGENCY: Unable to create configured logger. Using emergency logger. {"exception":"[object] (InvalidArgumentException(code: 0): Log [] is not defined. at C:\\laragon\\www\\blog\\vendor\\laravel\\framework\\src\\Illuminate\\Log\\LogManager.php:192)
+[stacktrace]
+#0 C:\\laragon\\www\\blog\\vendor\\laravel\\framework\\src\\Illuminate\\Log\\LogManager.php(118): Illuminate\\Log\\LogManager->resolve(NULL)
+#1 C:\\laragon\\www\\blog\\vendor\\laravel\\framework\\src\\Illuminate\\Log\\LogManager.php(98): Illuminate\\Log\\LogManager->get(NULL)
+#2 C:\\laragon\\www\\blog\\vendor\\laravel\\framework\\src\\Illuminate\\Log\\LogManager.php(543): Illuminate\\Log\\LogManager->driver()
+#3 C:\\laragon\\www\\blog\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Exceptions\\Handler.php(123): Illuminate\\Log\\LogManager->error('Uncaught Reflec...', Array)
+#4 C:\\laragon\\www\\blog\\app\\Exceptions\\Handler.php(35): Illuminate\\Foundation\\Exceptions\\Handler->report(Object(Symfony\\Component\\ErrorHandler\\Error\\FatalError))
+#5 C:\\laragon\\www\\blog\\vendor\
+unomaduro\\collision\\src\\Adapters\\Laravel\\ExceptionHandler.php(57): App\\Exceptions\\Handler->report(Object(Symfony\\Component\\ErrorHandler\\Error\\FatalError))
+#6 C:\\laragon\\www\\blog\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\HandleExceptions.php(88): NunoMaduro\\Collision\\Adapters\\Laravel\\ExceptionHandler->report(Object(Symfony\\Component\\ErrorHandler\\Error\\FatalError))
+#7 C:\\laragon\\www\\blog\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\HandleExceptions.php(130): Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleException(Object(Symfony\\Component\\ErrorHandler\\Error\\FatalError))
+#8 [internal function]: Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleShutdown()
+#9 {main}
+"} 
+[2022-05-16 21:10:57] laravel.ERROR: Uncaught ReflectionException: Class "App\Policies\ModelPolicy" does not exist in Command line code:1
+Stack trace:
+#0 Command line code(1): ReflectionClass->__construct('App\\Policies\\Mo...')
+#1 [internal function]: {closure}('App\\Policies\\Mo...', 'App\\Model')
+#2 Command line code(1): array_map(Object(Closure), Array, Array)
+#3 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught ReflectionException: Class \"App\\Policies\\ModelPolicy\" does not exist in Command line code:1
+Stack trace:
+#0 Command line code(1): ReflectionClass->__construct('App\\\\Policies\\\\Mo...')
+#1 [internal function]: {closure}('App\\\\Policies\\\\Mo...', 'App\\\\Model')
+#2 Command line code(1): array_map(Object(Closure), Array, Array)
+#3 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2022-05-16 21:11:56] laravel.EMERGENCY: Unable to create configured logger. Using emergency logger. {"exception":"[object] (InvalidArgumentException(code: 0): Log [] is not defined. at C:\\laragon\\www\\blog\\vendor\\laravel\\framework\\src\\Illuminate\\Log\\LogManager.php:192)
+[stacktrace]
+#0 C:\\laragon\\www\\blog\\vendor\\laravel\\framework\\src\\Illuminate\\Log\\LogManager.php(118): Illuminate\\Log\\LogManager->resolve(NULL)
+#1 C:\\laragon\\www\\blog\\vendor\\laravel\\framework\\src\\Illuminate\\Log\\LogManager.php(98): Illuminate\\Log\\LogManager->get(NULL)
+#2 C:\\laragon\\www\\blog\\vendor\\laravel\\framework\\src\\Illuminate\\Log\\LogManager.php(543): Illuminate\\Log\\LogManager->driver()
+#3 C:\\laragon\\www\\blog\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Exceptions\\Handler.php(123): Illuminate\\Log\\LogManager->error('Uncaught Reflec...', Array)
+#4 C:\\laragon\\www\\blog\\app\\Exceptions\\Handler.php(35): Illuminate\\Foundation\\Exceptions\\Handler->report(Object(Symfony\\Component\\ErrorHandler\\Error\\FatalError))
+#5 C:\\laragon\\www\\blog\\vendor\
+unomaduro\\collision\\src\\Adapters\\Laravel\\ExceptionHandler.php(57): App\\Exceptions\\Handler->report(Object(Symfony\\Component\\ErrorHandler\\Error\\FatalError))
+#6 C:\\laragon\\www\\blog\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\HandleExceptions.php(88): NunoMaduro\\Collision\\Adapters\\Laravel\\ExceptionHandler->report(Object(Symfony\\Component\\ErrorHandler\\Error\\FatalError))
+#7 C:\\laragon\\www\\blog\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\HandleExceptions.php(130): Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleException(Object(Symfony\\Component\\ErrorHandler\\Error\\FatalError))
+#8 [internal function]: Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleShutdown()
+#9 {main}
+"} 
+[2022-05-16 21:11:56] laravel.ERROR: Uncaught ReflectionException: Class "App\Policies\ModelPolicy" does not exist in Command line code:1
+Stack trace:
+#0 Command line code(1): ReflectionClass->__construct('App\\Policies\\Mo...')
+#1 [internal function]: {closure}('App\\Policies\\Mo...', 'App\\Model')
+#2 Command line code(1): array_map(Object(Closure), Array, Array)
+#3 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught ReflectionException: Class \"App\\Policies\\ModelPolicy\" does not exist in Command line code:1
+Stack trace:
+#0 Command line code(1): ReflectionClass->__construct('App\\\\Policies\\\\Mo...')
+#1 [internal function]: {closure}('App\\\\Policies\\\\Mo...', 'App\\\\Model')
+#2 Command line code(1): array_map(Object(Closure), Array, Array)
+#3 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2022-05-16 21:12:57] laravel.EMERGENCY: Unable to create configured logger. Using emergency logger. {"exception":"[object] (InvalidArgumentException(code: 0): Log [] is not defined. at C:\\laragon\\www\\blog\\vendor\\laravel\\framework\\src\\Illuminate\\Log\\LogManager.php:192)
+[stacktrace]
+#0 C:\\laragon\\www\\blog\\vendor\\laravel\\framework\\src\\Illuminate\\Log\\LogManager.php(118): Illuminate\\Log\\LogManager->resolve(NULL)
+#1 C:\\laragon\\www\\blog\\vendor\\laravel\\framework\\src\\Illuminate\\Log\\LogManager.php(98): Illuminate\\Log\\LogManager->get(NULL)
+#2 C:\\laragon\\www\\blog\\vendor\\laravel\\framework\\src\\Illuminate\\Log\\LogManager.php(543): Illuminate\\Log\\LogManager->driver()
+#3 C:\\laragon\\www\\blog\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Exceptions\\Handler.php(123): Illuminate\\Log\\LogManager->error('Uncaught Reflec...', Array)
+#4 C:\\laragon\\www\\blog\\app\\Exceptions\\Handler.php(35): Illuminate\\Foundation\\Exceptions\\Handler->report(Object(Symfony\\Component\\ErrorHandler\\Error\\FatalError))
+#5 C:\\laragon\\www\\blog\\vendor\
+unomaduro\\collision\\src\\Adapters\\Laravel\\ExceptionHandler.php(57): App\\Exceptions\\Handler->report(Object(Symfony\\Component\\ErrorHandler\\Error\\FatalError))
+#6 C:\\laragon\\www\\blog\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\HandleExceptions.php(88): NunoMaduro\\Collision\\Adapters\\Laravel\\ExceptionHandler->report(Object(Symfony\\Component\\ErrorHandler\\Error\\FatalError))
+#7 C:\\laragon\\www\\blog\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\HandleExceptions.php(130): Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleException(Object(Symfony\\Component\\ErrorHandler\\Error\\FatalError))
+#8 [internal function]: Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleShutdown()
+#9 {main}
+"} 
+[2022-05-16 21:12:57] laravel.ERROR: Uncaught ReflectionException: Class "App\Policies\ModelPolicy" does not exist in Command line code:1
+Stack trace:
+#0 Command line code(1): ReflectionClass->__construct('App\\Policies\\Mo...')
+#1 [internal function]: {closure}('App\\Policies\\Mo...', 'App\\Model')
+#2 Command line code(1): array_map(Object(Closure), Array, Array)
+#3 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught ReflectionException: Class \"App\\Policies\\ModelPolicy\" does not exist in Command line code:1
+Stack trace:
+#0 Command line code(1): ReflectionClass->__construct('App\\\\Policies\\\\Mo...')
+#1 [internal function]: {closure}('App\\\\Policies\\\\Mo...', 'App\\\\Model')
+#2 Command line code(1): array_map(Object(Closure), Array, Array)
+#3 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2022-05-16 21:13:57] laravel.EMERGENCY: Unable to create configured logger. Using emergency logger. {"exception":"[object] (InvalidArgumentException(code: 0): Log [] is not defined. at C:\\laragon\\www\\blog\\vendor\\laravel\\framework\\src\\Illuminate\\Log\\LogManager.php:192)
+[stacktrace]
+#0 C:\\laragon\\www\\blog\\vendor\\laravel\\framework\\src\\Illuminate\\Log\\LogManager.php(118): Illuminate\\Log\\LogManager->resolve(NULL)
+#1 C:\\laragon\\www\\blog\\vendor\\laravel\\framework\\src\\Illuminate\\Log\\LogManager.php(98): Illuminate\\Log\\LogManager->get(NULL)
+#2 C:\\laragon\\www\\blog\\vendor\\laravel\\framework\\src\\Illuminate\\Log\\LogManager.php(543): Illuminate\\Log\\LogManager->driver()
+#3 C:\\laragon\\www\\blog\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Exceptions\\Handler.php(123): Illuminate\\Log\\LogManager->error('Uncaught Reflec...', Array)
+#4 C:\\laragon\\www\\blog\\app\\Exceptions\\Handler.php(35): Illuminate\\Foundation\\Exceptions\\Handler->report(Object(Symfony\\Component\\ErrorHandler\\Error\\FatalError))
+#5 C:\\laragon\\www\\blog\\vendor\
+unomaduro\\collision\\src\\Adapters\\Laravel\\ExceptionHandler.php(57): App\\Exceptions\\Handler->report(Object(Symfony\\Component\\ErrorHandler\\Error\\FatalError))
+#6 C:\\laragon\\www\\blog\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\HandleExceptions.php(88): NunoMaduro\\Collision\\Adapters\\Laravel\\ExceptionHandler->report(Object(Symfony\\Component\\ErrorHandler\\Error\\FatalError))
+#7 C:\\laragon\\www\\blog\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\HandleExceptions.php(130): Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleException(Object(Symfony\\Component\\ErrorHandler\\Error\\FatalError))
+#8 [internal function]: Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleShutdown()
+#9 {main}
+"} 
+[2022-05-16 21:13:57] laravel.ERROR: Uncaught ReflectionException: Class "App\Policies\ModelPolicy" does not exist in Command line code:1
+Stack trace:
+#0 Command line code(1): ReflectionClass->__construct('App\\Policies\\Mo...')
+#1 [internal function]: {closure}('App\\Policies\\Mo...', 'App\\Model')
+#2 Command line code(1): array_map(Object(Closure), Array, Array)
+#3 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught ReflectionException: Class \"App\\Policies\\ModelPolicy\" does not exist in Command line code:1
+Stack trace:
+#0 Command line code(1): ReflectionClass->__construct('App\\\\Policies\\\\Mo...')
+#1 [internal function]: {closure}('App\\\\Policies\\\\Mo...', 'App\\\\Model')
+#2 Command line code(1): array_map(Object(Closure), Array, Array)
+#3 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2022-05-16 21:14:56] laravel.EMERGENCY: Unable to create configured logger. Using emergency logger. {"exception":"[object] (InvalidArgumentException(code: 0): Log [] is not defined. at C:\\laragon\\www\\blog\\vendor\\laravel\\framework\\src\\Illuminate\\Log\\LogManager.php:192)
+[stacktrace]
+#0 C:\\laragon\\www\\blog\\vendor\\laravel\\framework\\src\\Illuminate\\Log\\LogManager.php(118): Illuminate\\Log\\LogManager->resolve(NULL)
+#1 C:\\laragon\\www\\blog\\vendor\\laravel\\framework\\src\\Illuminate\\Log\\LogManager.php(98): Illuminate\\Log\\LogManager->get(NULL)
+#2 C:\\laragon\\www\\blog\\vendor\\laravel\\framework\\src\\Illuminate\\Log\\LogManager.php(543): Illuminate\\Log\\LogManager->driver()
+#3 C:\\laragon\\www\\blog\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Exceptions\\Handler.php(123): Illuminate\\Log\\LogManager->error('Uncaught Reflec...', Array)
+#4 C:\\laragon\\www\\blog\\app\\Exceptions\\Handler.php(35): Illuminate\\Foundation\\Exceptions\\Handler->report(Object(Symfony\\Component\\ErrorHandler\\Error\\FatalError))
+#5 C:\\laragon\\www\\blog\\vendor\
+unomaduro\\collision\\src\\Adapters\\Laravel\\ExceptionHandler.php(57): App\\Exceptions\\Handler->report(Object(Symfony\\Component\\ErrorHandler\\Error\\FatalError))
+#6 C:\\laragon\\www\\blog\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\HandleExceptions.php(88): NunoMaduro\\Collision\\Adapters\\Laravel\\ExceptionHandler->report(Object(Symfony\\Component\\ErrorHandler\\Error\\FatalError))
+#7 C:\\laragon\\www\\blog\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\HandleExceptions.php(130): Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleException(Object(Symfony\\Component\\ErrorHandler\\Error\\FatalError))
+#8 [internal function]: Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleShutdown()
+#9 {main}
+"} 
+[2022-05-16 21:14:56] laravel.ERROR: Uncaught ReflectionException: Class "App\Policies\ModelPolicy" does not exist in Command line code:1
+Stack trace:
+#0 Command line code(1): ReflectionClass->__construct('App\\Policies\\Mo...')
+#1 [internal function]: {closure}('App\\Policies\\Mo...', 'App\\Model')
+#2 Command line code(1): array_map(Object(Closure), Array, Array)
+#3 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught ReflectionException: Class \"App\\Policies\\ModelPolicy\" does not exist in Command line code:1
+Stack trace:
+#0 Command line code(1): ReflectionClass->__construct('App\\\\Policies\\\\Mo...')
+#1 [internal function]: {closure}('App\\\\Policies\\\\Mo...', 'App\\\\Model')
+#2 Command line code(1): array_map(Object(Closure), Array, Array)
+#3 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2022-05-16 21:15:56] laravel.EMERGENCY: Unable to create configured logger. Using emergency logger. {"exception":"[object] (InvalidArgumentException(code: 0): Log [] is not defined. at C:\\laragon\\www\\blog\\vendor\\laravel\\framework\\src\\Illuminate\\Log\\LogManager.php:192)
+[stacktrace]
+#0 C:\\laragon\\www\\blog\\vendor\\laravel\\framework\\src\\Illuminate\\Log\\LogManager.php(118): Illuminate\\Log\\LogManager->resolve(NULL)
+#1 C:\\laragon\\www\\blog\\vendor\\laravel\\framework\\src\\Illuminate\\Log\\LogManager.php(98): Illuminate\\Log\\LogManager->get(NULL)
+#2 C:\\laragon\\www\\blog\\vendor\\laravel\\framework\\src\\Illuminate\\Log\\LogManager.php(543): Illuminate\\Log\\LogManager->driver()
+#3 C:\\laragon\\www\\blog\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Exceptions\\Handler.php(123): Illuminate\\Log\\LogManager->error('Uncaught Reflec...', Array)
+#4 C:\\laragon\\www\\blog\\app\\Exceptions\\Handler.php(35): Illuminate\\Foundation\\Exceptions\\Handler->report(Object(Symfony\\Component\\ErrorHandler\\Error\\FatalError))
+#5 C:\\laragon\\www\\blog\\vendor\
+unomaduro\\collision\\src\\Adapters\\Laravel\\ExceptionHandler.php(57): App\\Exceptions\\Handler->report(Object(Symfony\\Component\\ErrorHandler\\Error\\FatalError))
+#6 C:\\laragon\\www\\blog\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\HandleExceptions.php(88): NunoMaduro\\Collision\\Adapters\\Laravel\\ExceptionHandler->report(Object(Symfony\\Component\\ErrorHandler\\Error\\FatalError))
+#7 C:\\laragon\\www\\blog\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\HandleExceptions.php(130): Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleException(Object(Symfony\\Component\\ErrorHandler\\Error\\FatalError))
+#8 [internal function]: Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleShutdown()
+#9 {main}
+"} 
+[2022-05-16 21:15:56] laravel.ERROR: Uncaught ReflectionException: Class "App\Policies\ModelPolicy" does not exist in Command line code:1
+Stack trace:
+#0 Command line code(1): ReflectionClass->__construct('App\\Policies\\Mo...')
+#1 [internal function]: {closure}('App\\Policies\\Mo...', 'App\\Model')
+#2 Command line code(1): array_map(Object(Closure), Array, Array)
+#3 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught ReflectionException: Class \"App\\Policies\\ModelPolicy\" does not exist in Command line code:1
+Stack trace:
+#0 Command line code(1): ReflectionClass->__construct('App\\\\Policies\\\\Mo...')
+#1 [internal function]: {closure}('App\\\\Policies\\\\Mo...', 'App\\\\Model')
+#2 Command line code(1): array_map(Object(Closure), Array, Array)
+#3 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2022-05-16 21:16:56] laravel.EMERGENCY: Unable to create configured logger. Using emergency logger. {"exception":"[object] (InvalidArgumentException(code: 0): Log [] is not defined. at C:\\laragon\\www\\blog\\vendor\\laravel\\framework\\src\\Illuminate\\Log\\LogManager.php:192)
+[stacktrace]
+#0 C:\\laragon\\www\\blog\\vendor\\laravel\\framework\\src\\Illuminate\\Log\\LogManager.php(118): Illuminate\\Log\\LogManager->resolve(NULL)
+#1 C:\\laragon\\www\\blog\\vendor\\laravel\\framework\\src\\Illuminate\\Log\\LogManager.php(98): Illuminate\\Log\\LogManager->get(NULL)
+#2 C:\\laragon\\www\\blog\\vendor\\laravel\\framework\\src\\Illuminate\\Log\\LogManager.php(543): Illuminate\\Log\\LogManager->driver()
+#3 C:\\laragon\\www\\blog\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Exceptions\\Handler.php(123): Illuminate\\Log\\LogManager->error('Uncaught Reflec...', Array)
+#4 C:\\laragon\\www\\blog\\app\\Exceptions\\Handler.php(35): Illuminate\\Foundation\\Exceptions\\Handler->report(Object(Symfony\\Component\\ErrorHandler\\Error\\FatalError))
+#5 C:\\laragon\\www\\blog\\vendor\
+unomaduro\\collision\\src\\Adapters\\Laravel\\ExceptionHandler.php(57): App\\Exceptions\\Handler->report(Object(Symfony\\Component\\ErrorHandler\\Error\\FatalError))
+#6 C:\\laragon\\www\\blog\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\HandleExceptions.php(88): NunoMaduro\\Collision\\Adapters\\Laravel\\ExceptionHandler->report(Object(Symfony\\Component\\ErrorHandler\\Error\\FatalError))
+#7 C:\\laragon\\www\\blog\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\HandleExceptions.php(130): Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleException(Object(Symfony\\Component\\ErrorHandler\\Error\\FatalError))
+#8 [internal function]: Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleShutdown()
+#9 {main}
+"} 
+[2022-05-16 21:16:56] laravel.ERROR: Uncaught ReflectionException: Class "App\Policies\ModelPolicy" does not exist in Command line code:1
+Stack trace:
+#0 Command line code(1): ReflectionClass->__construct('App\\Policies\\Mo...')
+#1 [internal function]: {closure}('App\\Policies\\Mo...', 'App\\Model')
+#2 Command line code(1): array_map(Object(Closure), Array, Array)
+#3 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught ReflectionException: Class \"App\\Policies\\ModelPolicy\" does not exist in Command line code:1
+Stack trace:
+#0 Command line code(1): ReflectionClass->__construct('App\\\\Policies\\\\Mo...')
+#1 [internal function]: {closure}('App\\\\Policies\\\\Mo...', 'App\\\\Model')
+#2 Command line code(1): array_map(Object(Closure), Array, Array)
+#3 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2022-05-16 21:17:56] laravel.EMERGENCY: Unable to create configured logger. Using emergency logger. {"exception":"[object] (InvalidArgumentException(code: 0): Log [] is not defined. at C:\\laragon\\www\\blog\\vendor\\laravel\\framework\\src\\Illuminate\\Log\\LogManager.php:192)
+[stacktrace]
+#0 C:\\laragon\\www\\blog\\vendor\\laravel\\framework\\src\\Illuminate\\Log\\LogManager.php(118): Illuminate\\Log\\LogManager->resolve(NULL)
+#1 C:\\laragon\\www\\blog\\vendor\\laravel\\framework\\src\\Illuminate\\Log\\LogManager.php(98): Illuminate\\Log\\LogManager->get(NULL)
+#2 C:\\laragon\\www\\blog\\vendor\\laravel\\framework\\src\\Illuminate\\Log\\LogManager.php(543): Illuminate\\Log\\LogManager->driver()
+#3 C:\\laragon\\www\\blog\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Exceptions\\Handler.php(123): Illuminate\\Log\\LogManager->error('Uncaught Reflec...', Array)
+#4 C:\\laragon\\www\\blog\\app\\Exceptions\\Handler.php(35): Illuminate\\Foundation\\Exceptions\\Handler->report(Object(Symfony\\Component\\ErrorHandler\\Error\\FatalError))
+#5 C:\\laragon\\www\\blog\\vendor\
+unomaduro\\collision\\src\\Adapters\\Laravel\\ExceptionHandler.php(57): App\\Exceptions\\Handler->report(Object(Symfony\\Component\\ErrorHandler\\Error\\FatalError))
+#6 C:\\laragon\\www\\blog\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\HandleExceptions.php(88): NunoMaduro\\Collision\\Adapters\\Laravel\\ExceptionHandler->report(Object(Symfony\\Component\\ErrorHandler\\Error\\FatalError))
+#7 C:\\laragon\\www\\blog\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\HandleExceptions.php(130): Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleException(Object(Symfony\\Component\\ErrorHandler\\Error\\FatalError))
+#8 [internal function]: Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleShutdown()
+#9 {main}
+"} 
+[2022-05-16 21:17:56] laravel.ERROR: Uncaught ReflectionException: Class "App\Policies\ModelPolicy" does not exist in Command line code:1
+Stack trace:
+#0 Command line code(1): ReflectionClass->__construct('App\\Policies\\Mo...')
+#1 [internal function]: {closure}('App\\Policies\\Mo...', 'App\\Model')
+#2 Command line code(1): array_map(Object(Closure), Array, Array)
+#3 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught ReflectionException: Class \"App\\Policies\\ModelPolicy\" does not exist in Command line code:1
+Stack trace:
+#0 Command line code(1): ReflectionClass->__construct('App\\\\Policies\\\\Mo...')
+#1 [internal function]: {closure}('App\\\\Policies\\\\Mo...', 'App\\\\Model')
+#2 Command line code(1): array_map(Object(Closure), Array, Array)
+#3 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2022-05-16 21:18:56] laravel.EMERGENCY: Unable to create configured logger. Using emergency logger. {"exception":"[object] (InvalidArgumentException(code: 0): Log [] is not defined. at C:\\laragon\\www\\blog\\vendor\\laravel\\framework\\src\\Illuminate\\Log\\LogManager.php:192)
+[stacktrace]
+#0 C:\\laragon\\www\\blog\\vendor\\laravel\\framework\\src\\Illuminate\\Log\\LogManager.php(118): Illuminate\\Log\\LogManager->resolve(NULL)
+#1 C:\\laragon\\www\\blog\\vendor\\laravel\\framework\\src\\Illuminate\\Log\\LogManager.php(98): Illuminate\\Log\\LogManager->get(NULL)
+#2 C:\\laragon\\www\\blog\\vendor\\laravel\\framework\\src\\Illuminate\\Log\\LogManager.php(543): Illuminate\\Log\\LogManager->driver()
+#3 C:\\laragon\\www\\blog\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Exceptions\\Handler.php(123): Illuminate\\Log\\LogManager->error('Uncaught Reflec...', Array)
+#4 C:\\laragon\\www\\blog\\app\\Exceptions\\Handler.php(35): Illuminate\\Foundation\\Exceptions\\Handler->report(Object(Symfony\\Component\\ErrorHandler\\Error\\FatalError))
+#5 C:\\laragon\\www\\blog\\vendor\
+unomaduro\\collision\\src\\Adapters\\Laravel\\ExceptionHandler.php(57): App\\Exceptions\\Handler->report(Object(Symfony\\Component\\ErrorHandler\\Error\\FatalError))
+#6 C:\\laragon\\www\\blog\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\HandleExceptions.php(88): NunoMaduro\\Collision\\Adapters\\Laravel\\ExceptionHandler->report(Object(Symfony\\Component\\ErrorHandler\\Error\\FatalError))
+#7 C:\\laragon\\www\\blog\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\HandleExceptions.php(130): Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleException(Object(Symfony\\Component\\ErrorHandler\\Error\\FatalError))
+#8 [internal function]: Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleShutdown()
+#9 {main}
+"} 
+[2022-05-16 21:18:56] laravel.ERROR: Uncaught ReflectionException: Class "App\Policies\ModelPolicy" does not exist in Command line code:1
+Stack trace:
+#0 Command line code(1): ReflectionClass->__construct('App\\Policies\\Mo...')
+#1 [internal function]: {closure}('App\\Policies\\Mo...', 'App\\Model')
+#2 Command line code(1): array_map(Object(Closure), Array, Array)
+#3 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught ReflectionException: Class \"App\\Policies\\ModelPolicy\" does not exist in Command line code:1
+Stack trace:
+#0 Command line code(1): ReflectionClass->__construct('App\\\\Policies\\\\Mo...')
+#1 [internal function]: {closure}('App\\\\Policies\\\\Mo...', 'App\\\\Model')
+#2 Command line code(1): array_map(Object(Closure), Array, Array)
+#3 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2022-05-16 21:19:56] laravel.EMERGENCY: Unable to create configured logger. Using emergency logger. {"exception":"[object] (InvalidArgumentException(code: 0): Log [] is not defined. at C:\\laragon\\www\\blog\\vendor\\laravel\\framework\\src\\Illuminate\\Log\\LogManager.php:192)
+[stacktrace]
+#0 C:\\laragon\\www\\blog\\vendor\\laravel\\framework\\src\\Illuminate\\Log\\LogManager.php(118): Illuminate\\Log\\LogManager->resolve(NULL)
+#1 C:\\laragon\\www\\blog\\vendor\\laravel\\framework\\src\\Illuminate\\Log\\LogManager.php(98): Illuminate\\Log\\LogManager->get(NULL)
+#2 C:\\laragon\\www\\blog\\vendor\\laravel\\framework\\src\\Illuminate\\Log\\LogManager.php(543): Illuminate\\Log\\LogManager->driver()
+#3 C:\\laragon\\www\\blog\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Exceptions\\Handler.php(123): Illuminate\\Log\\LogManager->error('Uncaught Reflec...', Array)
+#4 C:\\laragon\\www\\blog\\app\\Exceptions\\Handler.php(35): Illuminate\\Foundation\\Exceptions\\Handler->report(Object(Symfony\\Component\\ErrorHandler\\Error\\FatalError))
+#5 C:\\laragon\\www\\blog\\vendor\
+unomaduro\\collision\\src\\Adapters\\Laravel\\ExceptionHandler.php(57): App\\Exceptions\\Handler->report(Object(Symfony\\Component\\ErrorHandler\\Error\\FatalError))
+#6 C:\\laragon\\www\\blog\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\HandleExceptions.php(88): NunoMaduro\\Collision\\Adapters\\Laravel\\ExceptionHandler->report(Object(Symfony\\Component\\ErrorHandler\\Error\\FatalError))
+#7 C:\\laragon\\www\\blog\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\HandleExceptions.php(130): Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleException(Object(Symfony\\Component\\ErrorHandler\\Error\\FatalError))
+#8 [internal function]: Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleShutdown()
+#9 {main}
+"} 
+[2022-05-16 21:19:56] laravel.ERROR: Uncaught ReflectionException: Class "App\Policies\ModelPolicy" does not exist in Command line code:1
+Stack trace:
+#0 Command line code(1): ReflectionClass->__construct('App\\Policies\\Mo...')
+#1 [internal function]: {closure}('App\\Policies\\Mo...', 'App\\Model')
+#2 Command line code(1): array_map(Object(Closure), Array, Array)
+#3 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught ReflectionException: Class \"App\\Policies\\ModelPolicy\" does not exist in Command line code:1
+Stack trace:
+#0 Command line code(1): ReflectionClass->__construct('App\\\\Policies\\\\Mo...')
+#1 [internal function]: {closure}('App\\\\Policies\\\\Mo...', 'App\\\\Model')
+#2 Command line code(1): array_map(Object(Closure), Array, Array)
+#3 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2022-05-16 21:20:56] laravel.EMERGENCY: Unable to create configured logger. Using emergency logger. {"exception":"[object] (InvalidArgumentException(code: 0): Log [] is not defined. at C:\\laragon\\www\\blog\\vendor\\laravel\\framework\\src\\Illuminate\\Log\\LogManager.php:192)
+[stacktrace]
+#0 C:\\laragon\\www\\blog\\vendor\\laravel\\framework\\src\\Illuminate\\Log\\LogManager.php(118): Illuminate\\Log\\LogManager->resolve(NULL)
+#1 C:\\laragon\\www\\blog\\vendor\\laravel\\framework\\src\\Illuminate\\Log\\LogManager.php(98): Illuminate\\Log\\LogManager->get(NULL)
+#2 C:\\laragon\\www\\blog\\vendor\\laravel\\framework\\src\\Illuminate\\Log\\LogManager.php(543): Illuminate\\Log\\LogManager->driver()
+#3 C:\\laragon\\www\\blog\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Exceptions\\Handler.php(123): Illuminate\\Log\\LogManager->error('Uncaught Reflec...', Array)
+#4 C:\\laragon\\www\\blog\\app\\Exceptions\\Handler.php(35): Illuminate\\Foundation\\Exceptions\\Handler->report(Object(Symfony\\Component\\ErrorHandler\\Error\\FatalError))
+#5 C:\\laragon\\www\\blog\\vendor\
+unomaduro\\collision\\src\\Adapters\\Laravel\\ExceptionHandler.php(57): App\\Exceptions\\Handler->report(Object(Symfony\\Component\\ErrorHandler\\Error\\FatalError))
+#6 C:\\laragon\\www\\blog\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\HandleExceptions.php(88): NunoMaduro\\Collision\\Adapters\\Laravel\\ExceptionHandler->report(Object(Symfony\\Component\\ErrorHandler\\Error\\FatalError))
+#7 C:\\laragon\\www\\blog\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\HandleExceptions.php(130): Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleException(Object(Symfony\\Component\\ErrorHandler\\Error\\FatalError))
+#8 [internal function]: Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleShutdown()
+#9 {main}
+"} 
+[2022-05-16 21:20:56] laravel.ERROR: Uncaught ReflectionException: Class "App\Policies\ModelPolicy" does not exist in Command line code:1
+Stack trace:
+#0 Command line code(1): ReflectionClass->__construct('App\\Policies\\Mo...')
+#1 [internal function]: {closure}('App\\Policies\\Mo...', 'App\\Model')
+#2 Command line code(1): array_map(Object(Closure), Array, Array)
+#3 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught ReflectionException: Class \"App\\Policies\\ModelPolicy\" does not exist in Command line code:1
+Stack trace:
+#0 Command line code(1): ReflectionClass->__construct('App\\\\Policies\\\\Mo...')
+#1 [internal function]: {closure}('App\\\\Policies\\\\Mo...', 'App\\\\Model')
+#2 Command line code(1): array_map(Object(Closure), Array, Array)
+#3 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2022-05-16 21:21:56] laravel.EMERGENCY: Unable to create configured logger. Using emergency logger. {"exception":"[object] (InvalidArgumentException(code: 0): Log [] is not defined. at C:\\laragon\\www\\blog\\vendor\\laravel\\framework\\src\\Illuminate\\Log\\LogManager.php:192)
+[stacktrace]
+#0 C:\\laragon\\www\\blog\\vendor\\laravel\\framework\\src\\Illuminate\\Log\\LogManager.php(118): Illuminate\\Log\\LogManager->resolve(NULL)
+#1 C:\\laragon\\www\\blog\\vendor\\laravel\\framework\\src\\Illuminate\\Log\\LogManager.php(98): Illuminate\\Log\\LogManager->get(NULL)
+#2 C:\\laragon\\www\\blog\\vendor\\laravel\\framework\\src\\Illuminate\\Log\\LogManager.php(543): Illuminate\\Log\\LogManager->driver()
+#3 C:\\laragon\\www\\blog\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Exceptions\\Handler.php(123): Illuminate\\Log\\LogManager->error('Uncaught Reflec...', Array)
+#4 C:\\laragon\\www\\blog\\app\\Exceptions\\Handler.php(35): Illuminate\\Foundation\\Exceptions\\Handler->report(Object(Symfony\\Component\\ErrorHandler\\Error\\FatalError))
+#5 C:\\laragon\\www\\blog\\vendor\
+unomaduro\\collision\\src\\Adapters\\Laravel\\ExceptionHandler.php(57): App\\Exceptions\\Handler->report(Object(Symfony\\Component\\ErrorHandler\\Error\\FatalError))
+#6 C:\\laragon\\www\\blog\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\HandleExceptions.php(88): NunoMaduro\\Collision\\Adapters\\Laravel\\ExceptionHandler->report(Object(Symfony\\Component\\ErrorHandler\\Error\\FatalError))
+#7 C:\\laragon\\www\\blog\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\HandleExceptions.php(130): Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleException(Object(Symfony\\Component\\ErrorHandler\\Error\\FatalError))
+#8 [internal function]: Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleShutdown()
+#9 {main}
+"} 
+[2022-05-16 21:21:56] laravel.ERROR: Uncaught ReflectionException: Class "App\Policies\ModelPolicy" does not exist in Command line code:1
+Stack trace:
+#0 Command line code(1): ReflectionClass->__construct('App\\Policies\\Mo...')
+#1 [internal function]: {closure}('App\\Policies\\Mo...', 'App\\Model')
+#2 Command line code(1): array_map(Object(Closure), Array, Array)
+#3 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught ReflectionException: Class \"App\\Policies\\ModelPolicy\" does not exist in Command line code:1
+Stack trace:
+#0 Command line code(1): ReflectionClass->__construct('App\\\\Policies\\\\Mo...')
+#1 [internal function]: {closure}('App\\\\Policies\\\\Mo...', 'App\\\\Model')
+#2 Command line code(1): array_map(Object(Closure), Array, Array)
+#3 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2022-05-16 21:22:56] laravel.EMERGENCY: Unable to create configured logger. Using emergency logger. {"exception":"[object] (InvalidArgumentException(code: 0): Log [] is not defined. at C:\\laragon\\www\\blog\\vendor\\laravel\\framework\\src\\Illuminate\\Log\\LogManager.php:192)
+[stacktrace]
+#0 C:\\laragon\\www\\blog\\vendor\\laravel\\framework\\src\\Illuminate\\Log\\LogManager.php(118): Illuminate\\Log\\LogManager->resolve(NULL)
+#1 C:\\laragon\\www\\blog\\vendor\\laravel\\framework\\src\\Illuminate\\Log\\LogManager.php(98): Illuminate\\Log\\LogManager->get(NULL)
+#2 C:\\laragon\\www\\blog\\vendor\\laravel\\framework\\src\\Illuminate\\Log\\LogManager.php(543): Illuminate\\Log\\LogManager->driver()
+#3 C:\\laragon\\www\\blog\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Exceptions\\Handler.php(123): Illuminate\\Log\\LogManager->error('Uncaught Reflec...', Array)
+#4 C:\\laragon\\www\\blog\\app\\Exceptions\\Handler.php(35): Illuminate\\Foundation\\Exceptions\\Handler->report(Object(Symfony\\Component\\ErrorHandler\\Error\\FatalError))
+#5 C:\\laragon\\www\\blog\\vendor\
+unomaduro\\collision\\src\\Adapters\\Laravel\\ExceptionHandler.php(57): App\\Exceptions\\Handler->report(Object(Symfony\\Component\\ErrorHandler\\Error\\FatalError))
+#6 C:\\laragon\\www\\blog\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\HandleExceptions.php(88): NunoMaduro\\Collision\\Adapters\\Laravel\\ExceptionHandler->report(Object(Symfony\\Component\\ErrorHandler\\Error\\FatalError))
+#7 C:\\laragon\\www\\blog\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\HandleExceptions.php(130): Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleException(Object(Symfony\\Component\\ErrorHandler\\Error\\FatalError))
+#8 [internal function]: Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleShutdown()
+#9 {main}
+"} 
+[2022-05-16 21:22:56] laravel.ERROR: Uncaught ReflectionException: Class "App\Policies\ModelPolicy" does not exist in Command line code:1
+Stack trace:
+#0 Command line code(1): ReflectionClass->__construct('App\\Policies\\Mo...')
+#1 [internal function]: {closure}('App\\Policies\\Mo...', 'App\\Model')
+#2 Command line code(1): array_map(Object(Closure), Array, Array)
+#3 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught ReflectionException: Class \"App\\Policies\\ModelPolicy\" does not exist in Command line code:1
+Stack trace:
+#0 Command line code(1): ReflectionClass->__construct('App\\\\Policies\\\\Mo...')
+#1 [internal function]: {closure}('App\\\\Policies\\\\Mo...', 'App\\\\Model')
+#2 Command line code(1): array_map(Object(Closure), Array, Array)
+#3 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2022-05-16 21:23:56] laravel.EMERGENCY: Unable to create configured logger. Using emergency logger. {"exception":"[object] (InvalidArgumentException(code: 0): Log [] is not defined. at C:\\laragon\\www\\blog\\vendor\\laravel\\framework\\src\\Illuminate\\Log\\LogManager.php:192)
+[stacktrace]
+#0 C:\\laragon\\www\\blog\\vendor\\laravel\\framework\\src\\Illuminate\\Log\\LogManager.php(118): Illuminate\\Log\\LogManager->resolve(NULL)
+#1 C:\\laragon\\www\\blog\\vendor\\laravel\\framework\\src\\Illuminate\\Log\\LogManager.php(98): Illuminate\\Log\\LogManager->get(NULL)
+#2 C:\\laragon\\www\\blog\\vendor\\laravel\\framework\\src\\Illuminate\\Log\\LogManager.php(543): Illuminate\\Log\\LogManager->driver()
+#3 C:\\laragon\\www\\blog\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Exceptions\\Handler.php(123): Illuminate\\Log\\LogManager->error('Uncaught Reflec...', Array)
+#4 C:\\laragon\\www\\blog\\app\\Exceptions\\Handler.php(35): Illuminate\\Foundation\\Exceptions\\Handler->report(Object(Symfony\\Component\\ErrorHandler\\Error\\FatalError))
+#5 C:\\laragon\\www\\blog\\vendor\
+unomaduro\\collision\\src\\Adapters\\Laravel\\ExceptionHandler.php(57): App\\Exceptions\\Handler->report(Object(Symfony\\Component\\ErrorHandler\\Error\\FatalError))
+#6 C:\\laragon\\www\\blog\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\HandleExceptions.php(88): NunoMaduro\\Collision\\Adapters\\Laravel\\ExceptionHandler->report(Object(Symfony\\Component\\ErrorHandler\\Error\\FatalError))
+#7 C:\\laragon\\www\\blog\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\HandleExceptions.php(130): Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleException(Object(Symfony\\Component\\ErrorHandler\\Error\\FatalError))
+#8 [internal function]: Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleShutdown()
+#9 {main}
+"} 
+[2022-05-16 21:23:56] laravel.ERROR: Uncaught ReflectionException: Class "App\Policies\ModelPolicy" does not exist in Command line code:1
+Stack trace:
+#0 Command line code(1): ReflectionClass->__construct('App\\Policies\\Mo...')
+#1 [internal function]: {closure}('App\\Policies\\Mo...', 'App\\Model')
+#2 Command line code(1): array_map(Object(Closure), Array, Array)
+#3 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught ReflectionException: Class \"App\\Policies\\ModelPolicy\" does not exist in Command line code:1
+Stack trace:
+#0 Command line code(1): ReflectionClass->__construct('App\\\\Policies\\\\Mo...')
+#1 [internal function]: {closure}('App\\\\Policies\\\\Mo...', 'App\\\\Model')
+#2 Command line code(1): array_map(Object(Closure), Array, Array)
+#3 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2022-05-16 21:24:58] laravel.EMERGENCY: Unable to create configured logger. Using emergency logger. {"exception":"[object] (InvalidArgumentException(code: 0): Log [] is not defined. at C:\\laragon\\www\\blog\\vendor\\laravel\\framework\\src\\Illuminate\\Log\\LogManager.php:192)
+[stacktrace]
+#0 C:\\laragon\\www\\blog\\vendor\\laravel\\framework\\src\\Illuminate\\Log\\LogManager.php(118): Illuminate\\Log\\LogManager->resolve(NULL)
+#1 C:\\laragon\\www\\blog\\vendor\\laravel\\framework\\src\\Illuminate\\Log\\LogManager.php(98): Illuminate\\Log\\LogManager->get(NULL)
+#2 C:\\laragon\\www\\blog\\vendor\\laravel\\framework\\src\\Illuminate\\Log\\LogManager.php(543): Illuminate\\Log\\LogManager->driver()
+#3 C:\\laragon\\www\\blog\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Exceptions\\Handler.php(123): Illuminate\\Log\\LogManager->error('Uncaught Reflec...', Array)
+#4 C:\\laragon\\www\\blog\\app\\Exceptions\\Handler.php(35): Illuminate\\Foundation\\Exceptions\\Handler->report(Object(Symfony\\Component\\ErrorHandler\\Error\\FatalError))
+#5 C:\\laragon\\www\\blog\\vendor\
+unomaduro\\collision\\src\\Adapters\\Laravel\\ExceptionHandler.php(57): App\\Exceptions\\Handler->report(Object(Symfony\\Component\\ErrorHandler\\Error\\FatalError))
+#6 C:\\laragon\\www\\blog\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\HandleExceptions.php(88): NunoMaduro\\Collision\\Adapters\\Laravel\\ExceptionHandler->report(Object(Symfony\\Component\\ErrorHandler\\Error\\FatalError))
+#7 C:\\laragon\\www\\blog\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\HandleExceptions.php(130): Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleException(Object(Symfony\\Component\\ErrorHandler\\Error\\FatalError))
+#8 [internal function]: Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleShutdown()
+#9 {main}
+"} 
+[2022-05-16 21:24:58] laravel.ERROR: Uncaught ReflectionException: Class "App\Policies\ModelPolicy" does not exist in Command line code:1
+Stack trace:
+#0 Command line code(1): ReflectionClass->__construct('App\\Policies\\Mo...')
+#1 [internal function]: {closure}('App\\Policies\\Mo...', 'App\\Model')
+#2 Command line code(1): array_map(Object(Closure), Array, Array)
+#3 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught ReflectionException: Class \"App\\Policies\\ModelPolicy\" does not exist in Command line code:1
+Stack trace:
+#0 Command line code(1): ReflectionClass->__construct('App\\\\Policies\\\\Mo...')
+#1 [internal function]: {closure}('App\\\\Policies\\\\Mo...', 'App\\\\Model')
+#2 Command line code(1): array_map(Object(Closure), Array, Array)
+#3 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2022-05-16 21:25:56] laravel.EMERGENCY: Unable to create configured logger. Using emergency logger. {"exception":"[object] (InvalidArgumentException(code: 0): Log [] is not defined. at C:\\laragon\\www\\blog\\vendor\\laravel\\framework\\src\\Illuminate\\Log\\LogManager.php:192)
+[stacktrace]
+#0 C:\\laragon\\www\\blog\\vendor\\laravel\\framework\\src\\Illuminate\\Log\\LogManager.php(118): Illuminate\\Log\\LogManager->resolve(NULL)
+#1 C:\\laragon\\www\\blog\\vendor\\laravel\\framework\\src\\Illuminate\\Log\\LogManager.php(98): Illuminate\\Log\\LogManager->get(NULL)
+#2 C:\\laragon\\www\\blog\\vendor\\laravel\\framework\\src\\Illuminate\\Log\\LogManager.php(543): Illuminate\\Log\\LogManager->driver()
+#3 C:\\laragon\\www\\blog\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Exceptions\\Handler.php(123): Illuminate\\Log\\LogManager->error('Uncaught Reflec...', Array)
+#4 C:\\laragon\\www\\blog\\app\\Exceptions\\Handler.php(35): Illuminate\\Foundation\\Exceptions\\Handler->report(Object(Symfony\\Component\\ErrorHandler\\Error\\FatalError))
+#5 C:\\laragon\\www\\blog\\vendor\
+unomaduro\\collision\\src\\Adapters\\Laravel\\ExceptionHandler.php(57): App\\Exceptions\\Handler->report(Object(Symfony\\Component\\ErrorHandler\\Error\\FatalError))
+#6 C:\\laragon\\www\\blog\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\HandleExceptions.php(88): NunoMaduro\\Collision\\Adapters\\Laravel\\ExceptionHandler->report(Object(Symfony\\Component\\ErrorHandler\\Error\\FatalError))
+#7 C:\\laragon\\www\\blog\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\HandleExceptions.php(130): Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleException(Object(Symfony\\Component\\ErrorHandler\\Error\\FatalError))
+#8 [internal function]: Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleShutdown()
+#9 {main}
+"} 
+[2022-05-16 21:25:56] laravel.ERROR: Uncaught ReflectionException: Class "App\Policies\ModelPolicy" does not exist in Command line code:1
+Stack trace:
+#0 Command line code(1): ReflectionClass->__construct('App\\Policies\\Mo...')
+#1 [internal function]: {closure}('App\\Policies\\Mo...', 'App\\Model')
+#2 Command line code(1): array_map(Object(Closure), Array, Array)
+#3 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught ReflectionException: Class \"App\\Policies\\ModelPolicy\" does not exist in Command line code:1
+Stack trace:
+#0 Command line code(1): ReflectionClass->__construct('App\\\\Policies\\\\Mo...')
+#1 [internal function]: {closure}('App\\\\Policies\\\\Mo...', 'App\\\\Model')
+#2 Command line code(1): array_map(Object(Closure), Array, Array)
+#3 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2022-05-16 21:26:56] laravel.EMERGENCY: Unable to create configured logger. Using emergency logger. {"exception":"[object] (InvalidArgumentException(code: 0): Log [] is not defined. at C:\\laragon\\www\\blog\\vendor\\laravel\\framework\\src\\Illuminate\\Log\\LogManager.php:192)
+[stacktrace]
+#0 C:\\laragon\\www\\blog\\vendor\\laravel\\framework\\src\\Illuminate\\Log\\LogManager.php(118): Illuminate\\Log\\LogManager->resolve(NULL)
+#1 C:\\laragon\\www\\blog\\vendor\\laravel\\framework\\src\\Illuminate\\Log\\LogManager.php(98): Illuminate\\Log\\LogManager->get(NULL)
+#2 C:\\laragon\\www\\blog\\vendor\\laravel\\framework\\src\\Illuminate\\Log\\LogManager.php(543): Illuminate\\Log\\LogManager->driver()
+#3 C:\\laragon\\www\\blog\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Exceptions\\Handler.php(123): Illuminate\\Log\\LogManager->error('Uncaught Reflec...', Array)
+#4 C:\\laragon\\www\\blog\\app\\Exceptions\\Handler.php(35): Illuminate\\Foundation\\Exceptions\\Handler->report(Object(Symfony\\Component\\ErrorHandler\\Error\\FatalError))
+#5 C:\\laragon\\www\\blog\\vendor\
+unomaduro\\collision\\src\\Adapters\\Laravel\\ExceptionHandler.php(57): App\\Exceptions\\Handler->report(Object(Symfony\\Component\\ErrorHandler\\Error\\FatalError))
+#6 C:\\laragon\\www\\blog\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\HandleExceptions.php(88): NunoMaduro\\Collision\\Adapters\\Laravel\\ExceptionHandler->report(Object(Symfony\\Component\\ErrorHandler\\Error\\FatalError))
+#7 C:\\laragon\\www\\blog\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\HandleExceptions.php(130): Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleException(Object(Symfony\\Component\\ErrorHandler\\Error\\FatalError))
+#8 [internal function]: Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleShutdown()
+#9 {main}
+"} 
+[2022-05-16 21:26:56] laravel.ERROR: Uncaught ReflectionException: Class "App\Policies\ModelPolicy" does not exist in Command line code:1
+Stack trace:
+#0 Command line code(1): ReflectionClass->__construct('App\\Policies\\Mo...')
+#1 [internal function]: {closure}('App\\Policies\\Mo...', 'App\\Model')
+#2 Command line code(1): array_map(Object(Closure), Array, Array)
+#3 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught ReflectionException: Class \"App\\Policies\\ModelPolicy\" does not exist in Command line code:1
+Stack trace:
+#0 Command line code(1): ReflectionClass->__construct('App\\\\Policies\\\\Mo...')
+#1 [internal function]: {closure}('App\\\\Policies\\\\Mo...', 'App\\\\Model')
+#2 Command line code(1): array_map(Object(Closure), Array, Array)
+#3 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2022-05-16 21:27:56] laravel.EMERGENCY: Unable to create configured logger. Using emergency logger. {"exception":"[object] (InvalidArgumentException(code: 0): Log [] is not defined. at C:\\laragon\\www\\blog\\vendor\\laravel\\framework\\src\\Illuminate\\Log\\LogManager.php:192)
+[stacktrace]
+#0 C:\\laragon\\www\\blog\\vendor\\laravel\\framework\\src\\Illuminate\\Log\\LogManager.php(118): Illuminate\\Log\\LogManager->resolve(NULL)
+#1 C:\\laragon\\www\\blog\\vendor\\laravel\\framework\\src\\Illuminate\\Log\\LogManager.php(98): Illuminate\\Log\\LogManager->get(NULL)
+#2 C:\\laragon\\www\\blog\\vendor\\laravel\\framework\\src\\Illuminate\\Log\\LogManager.php(543): Illuminate\\Log\\LogManager->driver()
+#3 C:\\laragon\\www\\blog\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Exceptions\\Handler.php(123): Illuminate\\Log\\LogManager->error('Uncaught Reflec...', Array)
+#4 C:\\laragon\\www\\blog\\app\\Exceptions\\Handler.php(35): Illuminate\\Foundation\\Exceptions\\Handler->report(Object(Symfony\\Component\\ErrorHandler\\Error\\FatalError))
+#5 C:\\laragon\\www\\blog\\vendor\
+unomaduro\\collision\\src\\Adapters\\Laravel\\ExceptionHandler.php(57): App\\Exceptions\\Handler->report(Object(Symfony\\Component\\ErrorHandler\\Error\\FatalError))
+#6 C:\\laragon\\www\\blog\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\HandleExceptions.php(88): NunoMaduro\\Collision\\Adapters\\Laravel\\ExceptionHandler->report(Object(Symfony\\Component\\ErrorHandler\\Error\\FatalError))
+#7 C:\\laragon\\www\\blog\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\HandleExceptions.php(130): Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleException(Object(Symfony\\Component\\ErrorHandler\\Error\\FatalError))
+#8 [internal function]: Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleShutdown()
+#9 {main}
+"} 
+[2022-05-16 21:27:56] laravel.ERROR: Uncaught ReflectionException: Class "App\Policies\ModelPolicy" does not exist in Command line code:1
+Stack trace:
+#0 Command line code(1): ReflectionClass->__construct('App\\Policies\\Mo...')
+#1 [internal function]: {closure}('App\\Policies\\Mo...', 'App\\Model')
+#2 Command line code(1): array_map(Object(Closure), Array, Array)
+#3 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught ReflectionException: Class \"App\\Policies\\ModelPolicy\" does not exist in Command line code:1
+Stack trace:
+#0 Command line code(1): ReflectionClass->__construct('App\\\\Policies\\\\Mo...')
+#1 [internal function]: {closure}('App\\\\Policies\\\\Mo...', 'App\\\\Model')
+#2 Command line code(1): array_map(Object(Closure), Array, Array)
+#3 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2022-05-16 21:28:56] laravel.EMERGENCY: Unable to create configured logger. Using emergency logger. {"exception":"[object] (InvalidArgumentException(code: 0): Log [] is not defined. at C:\\laragon\\www\\blog\\vendor\\laravel\\framework\\src\\Illuminate\\Log\\LogManager.php:192)
+[stacktrace]
+#0 C:\\laragon\\www\\blog\\vendor\\laravel\\framework\\src\\Illuminate\\Log\\LogManager.php(118): Illuminate\\Log\\LogManager->resolve(NULL)
+#1 C:\\laragon\\www\\blog\\vendor\\laravel\\framework\\src\\Illuminate\\Log\\LogManager.php(98): Illuminate\\Log\\LogManager->get(NULL)
+#2 C:\\laragon\\www\\blog\\vendor\\laravel\\framework\\src\\Illuminate\\Log\\LogManager.php(543): Illuminate\\Log\\LogManager->driver()
+#3 C:\\laragon\\www\\blog\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Exceptions\\Handler.php(123): Illuminate\\Log\\LogManager->error('Uncaught Reflec...', Array)
+#4 C:\\laragon\\www\\blog\\app\\Exceptions\\Handler.php(35): Illuminate\\Foundation\\Exceptions\\Handler->report(Object(Symfony\\Component\\ErrorHandler\\Error\\FatalError))
+#5 C:\\laragon\\www\\blog\\vendor\
+unomaduro\\collision\\src\\Adapters\\Laravel\\ExceptionHandler.php(57): App\\Exceptions\\Handler->report(Object(Symfony\\Component\\ErrorHandler\\Error\\FatalError))
+#6 C:\\laragon\\www\\blog\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\HandleExceptions.php(88): NunoMaduro\\Collision\\Adapters\\Laravel\\ExceptionHandler->report(Object(Symfony\\Component\\ErrorHandler\\Error\\FatalError))
+#7 C:\\laragon\\www\\blog\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\HandleExceptions.php(130): Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleException(Object(Symfony\\Component\\ErrorHandler\\Error\\FatalError))
+#8 [internal function]: Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleShutdown()
+#9 {main}
+"} 
+[2022-05-16 21:28:56] laravel.ERROR: Uncaught ReflectionException: Class "App\Policies\ModelPolicy" does not exist in Command line code:1
+Stack trace:
+#0 Command line code(1): ReflectionClass->__construct('App\\Policies\\Mo...')
+#1 [internal function]: {closure}('App\\Policies\\Mo...', 'App\\Model')
+#2 Command line code(1): array_map(Object(Closure), Array, Array)
+#3 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught ReflectionException: Class \"App\\Policies\\ModelPolicy\" does not exist in Command line code:1
+Stack trace:
+#0 Command line code(1): ReflectionClass->__construct('App\\\\Policies\\\\Mo...')
+#1 [internal function]: {closure}('App\\\\Policies\\\\Mo...', 'App\\\\Model')
+#2 Command line code(1): array_map(Object(Closure), Array, Array)
+#3 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
