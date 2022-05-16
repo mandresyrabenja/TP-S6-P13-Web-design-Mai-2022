@@ -7,7 +7,7 @@
             <div class="col-md-12">
                 <div class="panel panel-default">
                     <div class="panel-heading">
-                        <?php echo e($post->title); ?> - <small>by <?php echo e($post->user->name); ?></small>
+                        <h1><?php echo e($post->title); ?></h1> - <small>par <?php echo e($post->user->name); ?></small>
 
                         <span class="pull-right">
                             <?php echo e($post->created_at->toDayDateTimeString()); ?>
@@ -18,12 +18,12 @@
                     <div class="panel-body">
                         <p><?php echo e($post->body); ?></p>
                         <p>
-                            Category: <span class="label label-success"><?php echo e($post->category->name); ?></span> <br>
-                            Tags:
+                            Catégorie: <span class="label label-success"><?php echo e($post->category->name); ?></span> <br>
+                            Mots-clés:
                             <?php $__empty_1 = true; $__currentLoopData = $post->tags; $__env->addLoop($__currentLoopData); foreach($__currentLoopData as $tag): $__env->incrementLoopIndices(); $loop = $__env->getLastLoop(); $__empty_1 = false; ?>
                                 <span class="label label-default"><?php echo e($tag->name); ?></span>
                             <?php endforeach; $__env->popLoop(); $loop = $__env->getLastLoop(); if ($__empty_1): ?>
-                                <span class="label label-danger">No tag found.</span>
+                                <span class="label label-danger">Aucun mots-clés trouvé.</span>
                             <?php endif; ?>
                         </p>
                     </div>

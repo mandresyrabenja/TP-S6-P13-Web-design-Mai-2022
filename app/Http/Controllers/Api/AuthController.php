@@ -24,7 +24,7 @@ class AuthController extends Controller
 
         return response()->json([
             'error' => true,
-            'message' => 'Wrong credentials!',
+            'message' => 'Email ou mot de passe incorrect!',
         ])->setStatusCode(401);
     }
 

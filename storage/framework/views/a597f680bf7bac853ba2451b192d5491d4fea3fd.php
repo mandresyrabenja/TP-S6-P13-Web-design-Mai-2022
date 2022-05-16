@@ -8,9 +8,9 @@
                 <div class="panel panel-default">
                     <div class="panel-heading">
                         <h2>
-                            Comments
+                            Commentaire
 
-                            <a href="<?php echo e(url('admin/comments/create')); ?>" class="btn btn-default pull-right">Create New</a>
+                            <a href="<?php echo e(url('admin/comments/create')); ?>" class="btn btn-default pull-right">Créer</a>
                         </h2>
                     </div>
 
@@ -18,9 +18,9 @@
                         <table class="table">
                             <thead>
                                 <tr>
-                                    <th>Post</th>
-                                    <th>Comment</th>
-                                    <th>Action</th>
+                                    <th>Article</th>
+                                    <th>Commentaire</th>
+                                    <th>Opération</th>
                                 </tr>
                             </thead>
                             <tbody>
@@ -29,12 +29,12 @@
                                         <td><?php echo e($comment->post->title); ?></td>
                                         <td><?php echo e($comment->body); ?></td>
                                         <td>
-                                            <a href="<?php echo e(url("/admin/comments/{$comment->id}")); ?>" data-method="DELETE" data-token="<?php echo e(csrf_token()); ?>" data-confirm="Are you sure?" class="btn btn-xs btn-danger">Delete</a>
+                                            <a href="<?php echo e(url("/admin/comments/{$comment->id}")); ?>" data-method="DELETE" data-token="<?php echo e(csrf_token()); ?>" data-confirm="Etes-vous sûr?" class="btn btn-xs btn-danger">Effacer</a>
                                         </td>
                                     </tr>
                                 <?php endforeach; $__env->popLoop(); $loop = $__env->getLastLoop(); if ($__empty_1): ?>
                                     <tr>
-                                        <td colspan="2">No comment available.</td>
+                                        <td colspan="2">Aucun commentaire</td>
                                     </tr>
                                 <?php endif; ?>
                             </tbody>

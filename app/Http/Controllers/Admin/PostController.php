@@ -56,7 +56,7 @@ class PostController extends Controller
         });
 
         $post->tags()->attach($tagsId);
-        flash()->overlay('Post created successfully.');
+        flash()->overlay('Article crée avec succès');
 
         return redirect('/admin/posts');
     }
@@ -83,7 +83,7 @@ class PostController extends Controller
     public function edit(Post $post)
     {
         if ($post->user_id != auth()->user()->id && auth()->user()->is_admin == false) {
-            flash()->overlay("You can't edit other peoples post.");
+            flash()->overlay("Vous ne pouvez pas modifier les articles des autres utilisateurs");
 
             return redirect('/admin/posts');
         }
@@ -117,7 +117,7 @@ class PostController extends Controller
         });
 
         $post->tags()->sync($tagsId);
-        flash()->overlay('Post updated successfully.');
+        flash()->overlay('Article mis à jour avec succès');
 
         return redirect('/admin/posts');
     }
@@ -131,13 +131,13 @@ class PostController extends Controller
     public function destroy(Post $post)
     {
         if ($post->user_id != auth()->user()->id && auth()->user()->is_admin == false) {
-            flash()->overlay("You can't delete other peoples post.");
+            flash()->overlay("Vous ne pouvez pas effacé les articles des autres utilisateurs.");
 
             return redirect('/admin/posts');
         }
 
         $post->delete();
-        flash()->overlay('Post deleted successfully.');
+        flash()->overlay('Article effacé avec succès');
 
         return redirect('/admin/posts');
     }
@@ -146,7 +146,7 @@ class PostController extends Controller
     {
         $post->is_published = ! $post->is_published;
         $post->save();
-        flash()->overlay('Post changed successfully.');
+        flash()->overlay('Status mis à jour avec succès.');
 
         return redirect('/admin/posts');
     }

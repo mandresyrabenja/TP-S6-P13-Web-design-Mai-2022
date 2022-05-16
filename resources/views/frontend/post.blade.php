@@ -7,7 +7,7 @@
             <div class="col-md-12">
                 <div class="panel panel-default">
                     <div class="panel-heading">
-                        {{ $post->title }} - <small>by {{ $post->user->name }}</small>
+                        <h1>{{ $post->title }}</h1> - <small>par {{ $post->user->name }}</small>
 
                         <span class="pull-right">
                             {{ $post->created_at->toDayDateTimeString() }}
@@ -17,12 +17,12 @@
                     <div class="panel-body">
                         <p>{{ $post->body }}</p>
                         <p>
-                            Category: <span class="label label-success">{{ $post->category->name }}</span> <br>
-                            Tags:
+                            Catégorie: <span class="label label-success">{{ $post->category->name }}</span> <br>
+                            Mots-clés:
                             @forelse ($post->tags as $tag)
                                 <span class="label label-default">{{ $tag->name }}</span>
                             @empty
-                                <span class="label label-danger">No tag found.</span>
+                                <span class="label label-danger">Aucun mots-clés trouvé.</span>
                             @endforelse
                         </p>
                     </div>

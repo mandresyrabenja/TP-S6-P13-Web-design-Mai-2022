@@ -41,7 +41,7 @@ class TagController extends Controller
         $this->validate($request, ['name' => 'required']);
 
         Tag::create(['name' => $request->name]);
-        flash()->overlay('Tag created successfully.');
+        flash()->overlay('Mots-clé crée avec succès');
 
         return redirect('/admin/tags');
     }
@@ -69,7 +69,7 @@ class TagController extends Controller
         $this->validate($request, ['name' => 'required']);
 
         $tag->update($request->all());
-        flash()->overlay('Tag updated successfully.');
+        flash()->overlay('Mots-clé mis à jour avec succès.');
 
         return redirect('/admin/tags');
     }
@@ -83,7 +83,7 @@ class TagController extends Controller
     public function destroy(Tag $tag)
     {
         $tag->delete();
-        flash()->overlay('Tag deleted successfully.');
+        flash()->overlay('Mots-clé effacé avec succès.');
 
         return redirect('/admin/tags');
     }

@@ -1,5 +1,5 @@
 <div class="form-group<?php echo e($errors->has('title') ? ' has-error' : ''); ?>">
-    <?php echo Form::label('title', 'Title', ['class' => 'col-md-2 control-label']); ?>
+    <?php echo Form::label('title', 'Titre', ['class' => 'col-md-2 control-label']); ?>
 
 
     <div class="col-md-8">
@@ -13,7 +13,7 @@
 </div>
 
 <div class="form-group<?php echo e($errors->has('body') ? ' has-error' : ''); ?>">
-    <?php echo Form::label('body', 'Body', ['class' => 'col-md-2 control-label']); ?>
+    <?php echo Form::label('body', 'Contenu', ['class' => 'col-md-2 control-label']); ?>
 
 
     <div class="col-md-8">
@@ -27,7 +27,7 @@
 </div>
 
 <div class="form-group<?php echo e($errors->has('category_id') ? ' has-error' : ''); ?>">
-    <?php echo Form::label('category_id', 'Category', ['class' => 'col-md-2 control-label']); ?>
+    <?php echo Form::label('category_id', 'Catégorie', ['class' => 'col-md-2 control-label']); ?>
 
 
     <div class="col-md-8">
@@ -49,7 +49,7 @@
 ?>
 
 <div class="form-group<?php echo e($errors->has('tags') ? ' has-error' : ''); ?>">
-    <?php echo Form::label('tags', 'Tag', ['class' => 'col-md-2 control-label']); ?>
+    <?php echo Form::label('tags', 'Mots-clés', ['class' => 'col-md-2 control-label']); ?>
 
 
     <div class="col-md-8">

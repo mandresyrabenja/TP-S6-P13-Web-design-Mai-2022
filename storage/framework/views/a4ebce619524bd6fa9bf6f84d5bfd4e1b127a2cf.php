@@ -2,11 +2,11 @@
     <?php echo Form::open(['method' => 'GET', 'role' => 'form']); ?>
 
             <div class="col-md-10">
-                <?php echo Form::text('search', request()->get('search'), ['class' => 'form-control', 'placeholder' => 'Search...']); ?>
+                <?php echo Form::text('search', request()->get('search'), ['class' => 'form-control', 'placeholder' => 'Rechercher un articles...']); ?>
 
             </div>
             <div class="col-md-2">
-                <?php echo Form::submit('Sumbit', ['class' => 'btn btn-block btn-default']); ?>
+                <?php echo Form::submit('Rechercher', ['class' => 'btn btn-block btn-success']); ?>
 
             </div>
     <?php echo Form::close(); ?>

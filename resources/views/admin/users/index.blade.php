@@ -8,7 +8,7 @@
                 <div class="panel panel-default">
                     <div class="panel-heading">
                         <h2>
-                            Users
+                            Utilisateurs
                         </h2>
                     </div>
 
@@ -16,11 +16,11 @@
                         <table class="table">
                             <thead>
                                 <tr>
-                                    <th>Name</th>
+                                    <th>Nom</th>
                                     <th>Email</th>
                                     <th>Admin?</th>
-                                    <th>No of Posts</th>
-                                    <th>Action</th>
+                                    <th>Nombre des articles</th>
+                                    <th>Opération</th>
                                 </tr>
                             </thead>
                             <tbody>
@@ -28,15 +28,15 @@
                                     <tr>
                                         <td>{{ $user->name }}</td>
                                         <td>{{ $user->email }}</td>
-                                        <td>{{ ($user->is_admin)?'Yes':'No' }}</td>
+                                        <td>{{ ($user->is_admin)?'Oui':'Non' }}</td>
                                         <td>{{ $user->posts_count }}</td>
                                         <td>
-                                            <a href="{{ url("/admin/users/{$user->id}") }}" data-method="DELETE" data-token="{{ csrf_token() }}" data-confirm="Are you sure?" class="btn btn-xs btn-danger">Delete</a>
+                                            <a href="{{ url("/admin/users/{$user->id}") }}" data-method="DELETE" data-token="{{ csrf_token() }}" data-confirm="Etes-vous sûr?" class="btn btn-xs btn-danger">Effacer</a>
                                         </td>
                                     </tr>
                                 @empty
                                     <tr>
-                                        <td colspan="2">No user available.</td>
+                                        <td colspan="2">Aucun utilisateur</td>
                                     </tr>
                                 @endforelse
                             </tbody>
