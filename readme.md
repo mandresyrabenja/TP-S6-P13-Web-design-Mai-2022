@@ -5,7 +5,10 @@ Mini-projet de web design S6
 ## RABENJAHARISON Finiavana Mandresy - ETU001155
 
 ## URL du site
-Frontoffice: https://web-design-s6.herokuapp.com/
-Backoffice: https://web-design-s6.herokuapp.com/login
-Utilisateur: admin@gmail.com
-Mot de passe: password
+
+***Les liens sont en HTTP, pas HTTPS***
+
+**Frontoffice**: http://web-design-s6.herokuapp.com<br />
+**Backoffice**: http://web-design-s6.herokuapp.com/login<br />
+**Utilisateur**: admin@gmail.com<br />
+**Mot de passe**: password<br />
