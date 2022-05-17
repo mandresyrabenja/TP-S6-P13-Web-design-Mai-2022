@@ -8,7 +8,7 @@ Mini-projet de web design S6
 
 ***Les liens sont en HTTP, pas HTTPS***
 
--**Frontoffice**: http://web-design-s6.herokuapp.com
--**Backoffice**: http://web-design-s6.herokuapp.com/login
--**Utilisateur**: admin@gmail.com
--**Mot de passe**: password
+**Frontoffice**: http://web-design-s6.herokuapp.com<br />
+**Backoffice**: http://web-design-s6.herokuapp.com/login<br />
+**Utilisateur**: admin@gmail.com<br />
+**Mot de passe**: password<br />
