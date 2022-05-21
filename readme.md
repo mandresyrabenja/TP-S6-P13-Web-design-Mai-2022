@@ -6,7 +6,7 @@ Mini-projet de web design S6
 
 ## URL du site
 
-***Les liens sont en HTTP, pas HTTPS***
+#Les liens sont en HTTP, pas HTTPS, vous risquez d'avoir un problème de CSS si vous ou votre navigateur change le lien en HTTPS 
 
 **Frontoffice**: http://web-design-s6.herokuapp.com<br />
 **Backoffice**: http://web-design-s6.herokuapp.com/login<br />
