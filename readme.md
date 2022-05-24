@@ -10,3 +10,5 @@ Mini-projet de web design S6
 **Backoffice**: http://web-design-s6.herokuapp.com/login<br />
 **Utilisateur**: admin@gmail.com<br />
 **Mot de passe**: password<br />
+
+## La base des données utilisée est gratuit et n'est disponible que pendant une semaine. Je ne m'engage pas à renouveler la base des données chaque sémaine.
